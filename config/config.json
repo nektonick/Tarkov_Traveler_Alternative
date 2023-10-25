@@ -189,62 +189,50 @@
         }
     },
 
-    "//Stash Note": "if upgradable = true the size will coorelate to the stash hideout station at that stashes location",
+    "//Stash Note": "Put no size params on a stash to make its size match the tier you have unlocked in the hideout",
    
     "stashes": {
         "Home_Stash":{
             "upgradable": true,
             "size_h": 0,
             "size_v": 0,
-            "access_via": ["Customs.Warehouse17", "Streets.Klimov"]
+            "access_via": ["BunkersSystem"]
         },
         "Prapor_Stash":{
             "upgradable": true,
             "size_h": 0,
             "size_v": 0,
-            "access_via": ["Customs.MilBaseCP"]
+            "access_via": ["PraporZone"]
         },
         "Jaeger_Stash":{
             "upgradable": true,
             "size_h": 0,
             "size_v": 0,
-            "access_via": ["Woods.ScavBunker"]
+            "access_via": ["JaegerZone"]
         },
         "Mechanic_Stash":{
             "upgradable": true,
             "size_h": 0,
             "size_v": 0,
-            "access_via": ["Streets.RuinedHouse"]
+            "access_via": ["FactoryGate0","FactoryGate3","FactoryGateM"]
         },
-        "Peacekeeper_Stash":{
+        "Pkeeper_Stash":{
             "upgradable": true,
             "size_h": 0,
             "size_v": 0,
-            "access_via": ["Reserve.DepotHermeticDoor"]
+            "access_via": ["PKeeperZone"]
         },
         "Ragman_Stash":{
             "upgradable": true,
             "size_h": 0,
             "size_v": 0,
-            "access_via": ["Interchange.ScavCamp"]
+            "access_via": ["RagmanZone"]
         },
         "Skier_Stash":{
             "upgradable": true,
             "size_h": 0,
             "size_v": 0,
-            "access_via": ["Shoreline.AdminBasement"]
-        },
-        "Interchange.Saferoom_Stash":{
-            "upgradable": false,
-            "size_h": 10,
-            "size_v": 50,
-            "access_via": ["Interchange.Saferoom"]
-        },
-        "Customs.ZB1013_Stash":{
-            "upgradable": false,
-            "size_h": 10,
-            "size_v": 50,
-            "access_via": ["Customs.ZB1013"]
+            "access_via": ["SkierZone"]
         }
     },
 
