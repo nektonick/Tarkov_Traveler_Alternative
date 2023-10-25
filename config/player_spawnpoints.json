@@ -48,6 +48,10 @@
       "Position": [674.5625, 5.60742664, 123.641823],
       "Rotation": 238.056732
     },
+    "Railroad To Military Base": {
+      "Position": [489.120117, 1.40883172, 207.272552],
+      "Rotation": 228.254486
+    },
     "ZB-1011": {
       "Position": [629.4296, -2.77441788, -127.8221],
       "Rotation": 97.17987
@@ -130,6 +134,10 @@
       "Position": [190.682846, -14.9319124, 219.147934],
       "Rotation": 227.765961
     },
+    "Bridge Car": {
+      "Position": [-487.348541, 15.0604687, -497.965179],
+      "Rotation": 24.781599
+    },
     "Mountain Stash": {
       "Position": [-215.205872, 31.7007847, -209.631348],
       "Rotation": 335.046753
@@ -204,6 +212,10 @@
   },
   "interchange": {
     "Interchange Vehicle Extract": {
+      "Position": [-242.849625, 21.32544, -372.680878],
+      "Rotation": 52.06011
+    },
+    "Car at Power Station": {
       "Position": [-242.849625, 21.32544, -372.680878],
       "Rotation": 52.06011
     },
