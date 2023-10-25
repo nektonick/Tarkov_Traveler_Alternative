@@ -242,7 +242,7 @@
     "hideouts":{
         "Home_Hideout":{
 
-            "access_via":["Customs.Warehouse17"],
+            "access_via":["BunkersSystem"],
             
             "stations": {
                 "generator": true,
@@ -276,7 +276,7 @@
 
         "Prapor_Hideout":{
 
-            "access_via":["Customs.MilBaseCP"],
+            "access_via":["PraporZone"],
             
             "stations": {
                 "all_stations": true
@@ -285,7 +285,7 @@
 
         "Skier_Hideout":{
 
-            "access_via":["Shoreline.AdminBasement"],
+            "access_via":["SkierZone"],
             
             "stations": {
                 "all_stations": true
@@ -294,7 +294,7 @@
 
         "Jaeger_Hideout":{
 
-            "access_via":["Woods.ScavBunker"],
+            "access_via":["JaegerZone"],
             
             "stations": {
                 "all_stations": true
@@ -303,7 +303,7 @@
 
         "Mechanic_Hideout":{
 
-            "access_via":["Streets.RuinedHouse"],
+            "access_via":["FactoryGate0", "FactoryGate3", "FactoryGateM"],
             
             "stations": {
                 "all_stations": true
@@ -312,7 +312,7 @@
 
         "Ragman_Hideout":{
 
-            "access_via":["Interchange.ScavCamp"],
+            "access_via":["RagmanZone"],
             
             "stations": {
                 "all_stations": true
@@ -321,30 +321,10 @@
 
         "Peacekeeper_Hideout":{
 
-            "access_via":["Reserve.DepotHermeticDoor"],
+            "access_via":["PKeeperZone"],
             
             "stations": {
                 "all_stations": true
-            }
-        },
-
-        "Interchange.Saferoom_Hideout":{
-
-            "access_via":["Interchange.Saferoom"],
-            
-            "stations": {
-                "all_stations": true,
-                "stash": false
-            }
-        },
-
-        "Customs.ZB1013_Hideout":{
-
-            "access_via":["Customs.ZB1013"],
-            
-            "stations": {
-                "all_stations": true,
-                "stash": false
             }
         }
     }, 
