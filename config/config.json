@@ -331,54 +331,150 @@
 
     "offraid_positions":{
 
-        "Customs.FactoryFarCorner--Factory.Gate3":{
+        "BunkersSystem":{ 
+            "is_checkpoint": true,
 
             "access_via":{
-                "factory4_day": ["Gate 3"],
-                "factory4_night": ["Gate 3"],
-                "bigmap": ["Factory Far Corner"]
+                "bigmap": ["Warehouse 17", "ZB-1011", "ZB-1012", "EXFIL_ZB013"],
+                "woods": ["ZB-014", "ZB-016", "Mountain Stash"],
+                "rezervbase": ["EXFIL_BUNKER_D2", "EXFIL_Bunker "]
             },
 
             "can_infil_to":{
-                "factory4_day": "Gate 3",
-                "factory4_night": "Gate 3",
-                "bigmap": "Factory Far Corner"
+                "bigmap": "ZB-1012",
+                "woods": "Mountain Stash",
+                "rezervbase": "D-2"
             }
         },
 
-        "Woods.FactoryGate--Factory.MedTent":{
-
+        "PraporZone":{
+            "is_checkpoint": true,
 
             "access_via":{
-                "factory4_day": ["Gate m"],
-                "factory4_night": ["Gate m"],
-                "woods": ["Factory Gate"]
+                "bigmap": ["Railroad To Military Base"],
+                "rezervbase": ["EXFIL_Train", "EXFIL_vent"],
+                "lighthouse": [" V-Ex_light"]
+
             },
 
             "can_infil_to":{
-                "factory4_day": "Med tent gates",
-                "factory4_night": "Med tent gates",
-                "woods": "Factory Gate"
+                "rezervbase": "Train Station",
+                "bigmap": "Railroad To Military Base",
+                "lighthouse": "Lighthouse Vehicle Extract" 
             }
         },
 
-        "Customs.OldGasScav--Factory.Gate0":{
+        "JaegerZone":{
+            "is_checkpoint": true,
+
+            "access_via":{
+                "woods": ["Outskirts"],
+                "lighthouse": ["Nothern_Checkpoint"],
+                "bigmap": ["Military Checkpoint"]
+            },
+
+            "can_infil_to":{
+                "woods": "Outskirts",
+                "lighthouse": "Northern CP",
+                "bigmap": "Scav CP"
+            }
+        },
+
+        "PKeeperZone":{
+            "is_checkpoint": true,
+
+            "access_via":{
+                "woods": ["UN Roadblock"],
+                "bigmap": ["RUAF Roadblock"],
+                "tarkovstreets": ["E4"]
+            },
+
+            "can_infil_to":{
+                "woods": "UN Roadblock",
+                "bigmap": "RUAF Roadblock",
+                "tarkovstreets": "Crash Site"
+            }
+        },
+
+        "SkierZone":{
+            "is_checkpoint": true,
+           
+            "access_via":{
+                "bigmap": ["Sniper Roadblock"],
+                "shoreline": ["Road to Customs"],
+                "interchange": ["SE Exfil"]
+            },
+
+            "can_infil_to":{
+                "bigmap": "Sniper Roadblock",
+                "shoreline": "Road to Customs",
+                "interchange": "Emercom"
+            }
+        },
+
+        "RagmanZone":{
+            "is_checkpoint": true,
+
+            "access_via":{
+                "interchange": ["Interchange Cooperation"],
+                "bigmap": ["Crossroads"]
+            },
+
+            "can_infil_to":{
+                "interchange": "Scav Camp",
+                "bigmap": "Crossroads"
+            }
+        },
+
+        "FactoryGate0":{
+            "is_checkpoint": true,
 
             "access_via":{
                 "factory4_day": ["Gate 0"],
                 "factory4_night": ["Gate 0"],
-                "bigmap": ["Old Azs Gate"]
+                "bigmap": ["Factory Far Corner"]
             },
 
             "can_infil_to":{
                 "factory4_day": "Gate 0",
                 "factory4_night": "Gate 0",
+                "bigmap": "Factory Far Corner"
+            }
+        },
+
+        "FactoryGate3":{
+            "is_checkpoint": true,
+
+            "access_via":{
+                "factory4_day": ["Gate 3"],
+                "factory4_night": ["Gate 3"],
+                "woods": ["Factory Gate"]
+            },
+
+            "can_infil_to":{
+                "factory4_day": "Gate 3",
+                "factory4_night": "Gate 3",
+                "woods": "Factory Gate"
+            }
+        },
+
+        "FactoryGateM":{ 
+            "is_checkpoint": true,
+
+            "access_via":{
+                "factory4_day": ["Gate m"],
+                "factory4_night": ["Gate m"],
+                "bigmap": ["Old Azs Gate"]
+            },
+
+            "can_infil_to":{
+                "factory4_day": "Med tent gates",
+                "factory4_night": "Med tent gates",
                 "bigmap": "Old Gas Scav"
             }
         },
 
-        "Customs.RRtoTarkov--Interchange.Railway":{
-
+        "Customs.RRtoTarkov--Interchange.Railway":{ 
             "access_via":{
                 "interchange": ["NW Exfil"],
                 "bigmap": ["Railroad To Tarkov"]
@@ -390,18 +486,7 @@
             }
         },
 
-        "Customs.RRtoMilitaryBase-1w>-Reserve.TrainStation":{
-
-            "access_via":{
-                "bigmap": ["Railroad To Military Base"]
-            },
-
-            "can_infil_to":{
-                "rezervbase": "Train Station"
-            }
-        },
-
-        "Customs.RRtoPort--Shoreline.RailwayBridge":{
+        "Customs.Railway--Shoreline.Railway":{
 
             "access_via":{
                 "bigmap": ["Railroad To Port"],
@@ -411,252 +496,70 @@
             "can_infil_to":{
                 "bigmap": "RR To Port",
                 "shoreline": "Railway Bridge"
-
-            }
-        },
-
-        "Customs.Crossroads--Shoreline.RoadToCustoms":{
-
-            "access_via":{
-                "bigmap": ["Crossroads"],
-                "shoreline": ["Road to Customs"]
-            },
-
-            "can_infil_to":{
-                "bigmap": "Crossroads",
-                "shoreline": "Road to Customs"
-
-            }
-        },
-
-        "Woods.UNRoadblock--Customs.ScavCP":{
-
-            "access_via":{
-                "woods": ["UN Roadblock"],
-                "bigmap": ["Military Checkpoint"]
-            },
-
-            "can_infil_to":{
-                "woods": "UN Roadblock",
-                "bigmap": "Scav CP"
-
-            }
-        },
-
-        "Customs.Warehouse17":{
-           
-            "access_via":{
-                "bigmap": ["Warehouse 17"],
-                "lighthouse": [" V-Ex_light"]
-
-            },
-
-            "can_infil_to":{
-                "bigmap": "Warehouse 17"
-
-            }
-        },
-
-        "Customs.ZB1013":{
-
-            "access_via":{
-                "bigmap": ["EXFIL_ZB013"]
-            },
-
-            "can_infil_to":{
-                "bigmap": "ZB-1013"
             }
         },
 
         "Customs.MilBaseCP":{
-
             "access_via":{
-                "bigmap": ["Shack"]
+                "bigmap": ["Shack"],
+                "rezervbase": ["EXFIL_ScavCooperation"]
             },
 
             "can_infil_to":{
-                "bigmap": "Military Base CP"
+                "bigmap": "Military Base CP",
+                "rezervbase": "Scav lands"
             }
         },
 
-        "Woods.Outskirts--Lighthouse.NorthernCP":{
+        "Woods.Car--Streets.ZmeevskyAlley":{
 
             "access_via":{
-                "woods": ["Outskirts"],
-                "lighthouse": ["Nothern_Checkpoint"]
+                "woods": ["South V-Ex"],
+                "tarkovstreets": ["E5"]
             },
 
             "can_infil_to":{
-                "woods": "Outskirts",
-                "lighthouse": "Northern CP"
+                "tarkovstreets": "Kamchatskya Arch",
+                "woods": "Bridge Car"
             }
         },
 
-        "Woods.Car-1w>-Streets.KamchatskyaArch":{
+        "Reserve.CliffDescent--Shoreline.NorthernCliffs":{
 
             "access_via":{
-                "woods": ["South V-Ex"]
+                "rezervbase": ["Exit4", "Alpinist"],
+                "shoreline": ["Rock Passage"]
             },
 
             "can_infil_to":{
-                "tarkovstreets": "Kamchatskya Arch"
-            }
-        },
-
-        "Woods.ScavBunker":{
-
-            
-
-            "access_via":{
-                "woods": ["East Gate"]
-            },
-
-            "can_infil_to":{
-                "woods": "Scav Bunker"
-            }
-        },
-
-        "Woods.NorthernUN-alt>-Customs.ScavCP":{
-
-            "access_via":{
-                "woods": ["un-sec"]
-            },
-
-            "can_infil_to":{
-                "woods": "Northern UN Roadblock",
-                "bigmap": "Scav CP"
-            }
-        },
-
-        "Reserve.Manhole--Streets.Manhole":{
-
-            "access_via":{
-                "rezervbase": ["EXFIL_vent"],
-                "tarkovstreets": ["scav_e4"]
-            },
-
-            "can_infil_to":{
-                "rezervbase": "Reserve Manhole",
-                "tarkovstreets": "Streets Manhole"
-            }
-        },
-
-        "Streets.CrashSite--Reserve.CPFence":{
-
-            "access_via":{
-                "rezervbase": ["Exit4"],
-                "tarkovstreets": ["E4"]
-            },
-
-            "can_infil_to":{
-                "rezervbase": "CP Fence",
-                "tarkovstreets": "Crash Site"
-            }
-        },
-
-        "Reserve.CliffDescent-1w>-Shoreline.NorthernCliffs":{
-
-            "access_via":{
-                "rezervbase": ["Alpinist"]
-            },
-
-            "can_infil_to":{
+                "rezervbase": "Cliff",
                 "shoreline": "Shoreline Northern Cliffs"
             }
         },
 
-        "Reserve.D2-1w>-Woods.SniperRockBunker":{
+        "Interchange.Car--Streets.Underpass":{
 
             "access_via":{
-                "rezervbase": ["EXFIL_Bunker_D2"]
-            },
-
-            "can_infil_to":{
-                "woods": "Sniper Rock Bunker"
-            }
-        },
-
-        "Reserve.BunkerHermetic-1w>-Shoreline.CCPTemporary":{
-
-            "access_via":{
-                "rezervbase": ["EXFIL_Bunker"]
-            },
-
-            "can_infil_to":{
-                "shoreline": "CCP Temporary"
-            }
-        },
-
-        "Reserve.DepotHermeticDoor":{
-
-            
-
-            "access_via":{
-                "rezervbase": ["Exit3"]
-            },
-
-            "can_infil_to":{
-                "rezervbase": "Depot Hermetic"
-            }
-        },
-
-        "Interchange.Car-alt>-Streets.ExpoCP":{
-
-            "access_via":{
-                "interchange": ["PP Exfil"]
+                "interchange": ["PP Exfil"],
+                "tarkovstreets": ["E7_car"]
             },
 
             "can_infil_to":{
                 "interchange": "Interchange Vehicle Extract",
-                "tarkovstreets": "Expo Checkpoint"
+                "tarkovstreets": "Streets Vehicle Extract" 
             }
         },
 
-        "Interchange.Emercom--Streets.ExpoCP":{
+        "Shoreline.NorthFencePassage--Customs.Car":{
 
             "access_via":{
-                "interchange": ["SE Exfil"],
-                "tarkovstreets": ["E7"]
+                "shoreline": ["South Fence Passage"],
+                "bigmap": ["Dorms V-Ex"]
             },
 
             "can_infil_to":{
-                "interchange": "Emercom",
-                "tarkovstreets": "Expo Checkpoint"
-            }
-        },
-
-        "Interchange.ScavCamp":{
-
-            
-
-            "access_via":{
-                "interchange": ["Interchange Cooperation"]
-            },
-
-            "can_infil_to":{
-                "interchange": "Scav Camp"
-            }
-        },
-
-        "Interchange.Saferoom":{
-
-            "access_via":{
-                "interchange": ["Saferoom Exfil"]
-            },
-
-            "can_infil_to":{
-                "interchange": "Safe Room"
-            }
-        },
-
-        "Shoreline.NorthFencePassage-1w>-Reserve.HoleInWall":{
-
-            "access_via":{
-                "shoreline": ["South Fence Passage"]
-            },
-
-            "can_infil_to":{
-                "rezervbase": "Hole In Wall"
+                "shoreline": "North Fence Passage",
+                "bigmap": "Dorms Car"
             }
         },
 
