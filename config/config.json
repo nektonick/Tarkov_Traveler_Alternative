@@ -699,43 +699,6 @@
             }
         },
 
-        "Shoreline.AdminBasement":{
-
-            
-
-            "access_via":{
-                "shoreline": ["Adm Basement"]
-            },
-
-            "can_infil_to":{
-                "shoreline": "Admin Basement"
-            }
-        },
-
-        "Lighthouse.SouthernRoad-alt>-Shoreline.Tunnel":{
-
-            "access_via":{
-                "lighthouse": ["Coastal_South_Road"]
-            },
-
-            "can_infil_to":{
-                "lighthouse": "Southern Road",
-                "shoreline": "Shoreline Tunnel"
-            }
-        },
-
-        "Lighthouse.MountainPass-alt>-Shoreline.PathToLighthouse":{
-
-            "access_via":{
-                "lighthouse": ["Alpinist_light"]
-            },
-
-            "can_infil_to":{
-                "lighthouse": "Mountain Pass",
-                "shoreline": "Path to Lighthouse"
-            }
-        },
-
         "Streets.SewerRiver--Lab.SewageConduit":{
 
             "access_via":{
@@ -785,30 +748,6 @@
             "can_infil_to":{
                 "tarkovstreets": "Streets Vents",
                 "laboratory": "Lab Vents"
-            }
-        },
-
-        "Streets.RuinedHouse":{
-
-            
-
-            "access_via":{
-                "tarkovstreets": ["E3"]
-            },
-
-            "can_infil_to":{
-                "tarkovstreets": "Streets Ruined House"
-            }
-        },
-
-        "Streets.Klimov":{
-
-            "access_via":{
-                "tarkovstreets": ["E9_sniper"]
-            },
-
-            "can_infil_to":{
-                "tarkovstreets": "Klimov Street"
             }
         },
 
