@@ -112,23 +112,23 @@
             "trader_location_text": "A warehouse somewhere in Customs.",
             "accessible_everywhere": false,
             "is_medic": true,
-            "access_via": ["Customs.Warehouse17"]
+            "access_via": ["BunkersSystem"]
         },
         "Prapor": {
             "trader_id": "54cb50c76803fa8b248b4571",
             "trader_description_text": "",
             "trader_location_text": "An abandoned military checkpoint in Customs.",
             "accessible_everywhere": false,
-            "is_medic": false,
-            "access_via": ["Customs.MilBaseCP"]
+            "is_medic": true,
+            "access_via": ["PraporZone"]
         },
         "Skier": {
             "trader_id": "58330581ace78e27b8b10cee",
             "trader_description_text": "",
             "trader_location_text": "Somewhere in the basement of the Health Resort.",
             "accessible_everywhere": false,
-            "is_medic": false,
-            "access_via": ["Shoreline.AdminBasement"]
+            "is_medic": true,
+            "access_via": ["SkierZone"]
         },
         "Jaeger": {
             "trader_id": "5c0647fdd443bc2504c2d371",
@@ -136,38 +136,38 @@
             "trader_location_text": "A bunker in the northern parts of Woods.",
             "accessible_everywhere": false,
             "is_medic": true,
-            "access_via": ["Woods.ScavBunker"]
+            "access_via": ["JaegerZone"]
         },
         "Mechanic": {
             "trader_id": "5a7c2eca46aef81a7ca2145d",
             "trader_description_text": "",
             "trader_location_text": "An old appartment building in Tarkov City.",
             "accessible_everywhere": false,
-            "is_medic": false,
-            "access_via": ["Streets.RuinedHouse"]
+            "is_medic": true,
+            "access_via": ["FactoryGate0", "FactoryGate3", "FactoryGateM"]
         },
         "Ragman": {
             "trader_id": "5ac3b934156ae10c4430e83c",
             "trader_description_text": "",
             "trader_location_text": "A survivor camp outside the Mall.",
             "accessible_everywhere": false,
-            "is_medic": false,
-            "access_via": ["Interchange.ScavCamp"]
+            "is_medic": true,
+            "access_via": ["RagmanZone"]
         },
         "Peacekeeper": {
             "trader_id": "5935c25fb3acc3127c3d8cd9",
             "trader_description_text": "",
             "trader_location_text": "Holed up in an old supply bunker in the military base.",
             "accessible_everywhere": false,
-            "is_medic": false,
-            "access_via": ["Reserve.DepotHermeticDoor"]
+            "is_medic": true,
+            "access_via": ["PKeeperZone"]
         },
         "Fence": {
             "trader_id": "579dc571d53a0658a154fbec",
             "trader_description_text": "",
             "trader_location_text": "Ever present in all locations. Fence sees all.",
             "accessible_everywhere": true,
-            "is_medic": false,
+            "is_medic": true,
             "access_via": [""]
         },
         "Flea": {
@@ -176,38 +176,16 @@
             "//Note": "unlock_level only applies if unlock_via_offraid_pos = true",
             "unlock_level": 10,
             "access_via": [
-                "Customs.MilBaseCP",
-                "Shoreline.AdminBasement",
-                "Woods.ScavBunker",
-                "Streets.RuinedHouse",
-                "Interchange.ScavCamp",
-                "Reserve.DepotHermeticDoor"
+                "BunkersSystem",
+                "PraporZone",
+                "JaegerZone",
+                "PKeeperZone",
+                "SkierZone",
+                "RagmanZone",
+                "FactoryGate0",
+                "FactoryGate3",
+                "FactoryGateM"
             ]
-        },
-
-        "Goblin King": {
-            "trader_id": "GoblinKing",
-            "trader_description_text": "",
-            "trader_location_text": "In the saferoom underneath the mall.",
-            "accessible_everywhere": false,
-            "is_medic": false,
-            "access_via": ["Interchange.Saferoom"]
-        },
-        "Broker": {
-            "trader_id": "broker-trader-id",
-            "trader_description_text": "",
-            "trader_location_text": "In a bunker on Customs with a power locked door.",
-            "accessible_everywhere": false,
-            "is_medic": false,
-            "access_via": ["Customs.ZB1013"]
-        },
-        "Moron DRIP Trader": {
-            "trader_id": "moron",
-            "trader_description_text": "",
-            "trader_location_text": "An old appartment building in Tarkov City.",
-            "accessible_everywhere": false,
-            "is_medic": false,
-            "access_via": ["Streets.RuinedHouse"]
         }
     },
 
