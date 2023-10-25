@@ -6,7 +6,7 @@
     "//Uninstall Note3": "ONLY  your home stash and hideout will be saved for use after removing Traveler from your mods folder.",
     "uninstall": false,
 
-    "home": "Customs.Warehouse17",
+    "home": "BunkersSystem",
     "multi_stash": true,
     "multi_hideout": true,
     "locale_language": "en",
@@ -15,11 +15,11 @@
     "post_raid_healing_enabled":true,
     "disable_out_of_raid_quest_stash": true,
     "car_exfils":{
-        "all_cars_free": false,
+        "all_cars_free": true,
         "car_currency": "roubles",
         "customs": 0,
         "interchange": 0,
-        "lighthouse": 80000,
+        "lighthouse": 0,
         "streets": 0,
         "woods": 0
     },
@@ -44,13 +44,15 @@
         "unlimited_stock": true
     },
     "checkpoints":[
-        "Customs.Warehouse17",
-        "Customs.MilBaseCP",
-        "Woods.ScavBunker",
-        "Reserve.DepotHermeticDoor",
-        "Interchange.ScavCamp",
-        "Shoreline.AdminBasement",
-        "Streets.RuinedHouse"
+        "BunkersSystem",
+        "PraporZone",
+        "JaegerZone",
+        "PKeeperZone",
+        "SkierZone",
+        "RagmanZone",
+        "FactoryGate0",
+        "FactoryGate3",
+        "FactoryGateM"
     ],
 
     
@@ -65,7 +67,7 @@
             "right_arm_rate": 1.05,
             "left_leg_rate": 1.1375,
             "right_leg_rate": 1.1375,
-            "access_via": ["Customs.Warehouse17"]
+            "access_via": ["BunkersSystem"]
         },
 
         "energy_regen":{
@@ -73,13 +75,15 @@
             "available_everywhere": false,
             "rate": 1,
             "access_via": [
-                "Customs.Warehouse17",
-                "Customs.MilBaseCP",
-                "Shoreline.AdminBasement",
-                "Woods.ScavBunker",
-                "Streets.RuinedHouse",
-                "Interchange.ScavCamp",
-                "Reserve.DepotHermeticDoor"
+                "BunkersSystem",
+                "PraporZone",
+                "JaegerZone",
+                "PKeeperZone",
+                "SkierZone",
+                "RagmanZone",
+                "FactoryGate0",
+                "FactoryGate3",
+                "FactoryGateM"
             ]
         },
 
@@ -88,13 +92,15 @@
             "available_everywhere": false,
             "rate": 1,
             "access_via": [
-                "Customs.Warehouse17",
-                "Customs.MilBaseCP",
-                "Shoreline.AdminBasement",
-                "Woods.ScavBunker",
-                "Streets.RuinedHouse",
-                "Interchange.ScavCamp",
-                "Reserve.DepotHermeticDoor"
+                "BunkersSystem",
+                "PraporZone",
+                "JaegerZone",
+                "PKeeperZone",
+                "SkierZone",
+                "RagmanZone",
+                "FactoryGate0",
+                "FactoryGate3",
+                "FactoryGateM"
             ]
         }
     },
