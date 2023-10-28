@@ -335,7 +335,7 @@
             "is_checkpoint": true,
 
             "access_via":{
-                "bigmap": ["Warehouse 17", "ZB-1011", "ZB-1012", "EXFIL_ZB013"],
+                "bigmap": ["Warehouse 17", "ZB-1011", "ZB-1012", "EXFIL_ZB013", "Old Gas Station"],
                 "woods": ["ZB-014", "ZB-016", "Mountain Stash"],
                 "rezervbase": ["EXFIL_BUNKER_D2", "EXFIL_Bunker "]
             },
@@ -368,7 +368,7 @@
             "is_checkpoint": true,
 
             "access_via":{
-                "woods": ["Outskirts"],
+                "woods": ["Outskirts", "Scav House", "The Boat", "East Gate"],
                 "lighthouse": ["Nothern_Checkpoint"],
                 "bigmap": ["Military Checkpoint"]
             },
@@ -384,13 +384,13 @@
             "is_checkpoint": true,
 
             "access_via":{
-                "woods": ["UN Roadblock"],
+                "woods": ["UN Roadblock", "un-sec", "Old Station"],
                 "bigmap": ["RUAF Roadblock"],
                 "tarkovstreets": ["E4"]
             },
 
             "can_infil_to":{
-                "woods": "UN Roadblock",
+                "woods": "Northern UN Roadblock",
                 "bigmap": "RUAF Roadblock",
                 "tarkovstreets": "Crash Site"
             }
@@ -514,7 +514,7 @@
         "Woods.Car--Streets.ZmeevskyAlley":{
 
             "access_via":{
-                "woods": ["South V-Ex"],
+                "woods": ["South V-Ex", "Outskirts Water"],
                 "tarkovstreets": ["E5"]
             },
 
@@ -687,6 +687,18 @@
             "can_infil_to":{
                 "laboratory": "Cargo Elevator",
                 "tarkovstreets": "Basement Descent"
+            }
+        },
+
+        "Woods.RUAF" : {
+            "access_via":{
+                "woods": ["RUAF Gate"],
+                "bigmap": ["Administration Gate"]
+            },
+
+            "can_infil_to":{
+                "woods": "RUAF Gate",
+                "bigmap": "Administration Gate"
             }
         }
     }

@@ -111,6 +111,11 @@
     "Scav CP": {
       "Position": [647.141, -0.3182248, -25.9616776],
       "Rotation": 307.1494
+    },
+    "Administration Gate": {
+      "TODO": "change",
+      "Position": [647.141, -0.3182248, -25.9616776],
+      "Rotation": 307.1494
     }
   },
   "woods": {
@@ -165,6 +170,11 @@
     "Scav Bunker": {
       "Position": [224.07019, 20.14909, -708.5178],
       "Rotation": 104.772415
+    },
+    "RUAF Gate": {
+      "TODO": "change",
+      "Position": [-346.51947, -2.32620764, 353.3336],
+      "Rotation": 174.779083
     }
   },
   "rezervbase": {
