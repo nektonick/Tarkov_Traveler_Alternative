@@ -45,7 +45,8 @@
     },
     "checkpoints":[
         "BunkersSystem",
-        "PraporZone",
+        "PraporZone1",
+        "PraporZone2",
         "JaegerZone",
         "PKeeperZone",
         "SkierZone",
@@ -76,7 +77,8 @@
             "rate": 1,
             "access_via": [
                 "BunkersSystem",
-                "PraporZone",
+                "PraporZone1",
+                "PraporZone2",
                 "JaegerZone",
                 "PKeeperZone",
                 "SkierZone",
@@ -93,7 +95,8 @@
             "rate": 1,
             "access_via": [
                 "BunkersSystem",
-                "PraporZone",
+                "PraporZone1",
+                "PraporZone2",
                 "JaegerZone",
                 "PKeeperZone",
                 "SkierZone",
@@ -120,7 +123,7 @@
             "trader_location_text": "An abandoned military checkpoint in Customs.",
             "accessible_everywhere": false,
             "is_medic": true,
-            "access_via": ["PraporZone"]
+            "access_via": ["PraporZone1", "PraporZone2"]
         },
         "Skier": {
             "trader_id": "58330581ace78e27b8b10cee",
@@ -177,7 +180,8 @@
             "unlock_level": 10,
             "access_via": [
                 "BunkersSystem",
-                "PraporZone",
+                "PraporZone1",
+                "PraporZone2",
                 "JaegerZone",
                 "PKeeperZone",
                 "SkierZone",
@@ -202,7 +206,7 @@
             "upgradable": true,
             "size_h": 0,
             "size_v": 0,
-            "access_via": ["PraporZone"]
+            "access_via": ["PraporZone1", "PraporZone2"]
         },
         "Jaeger_Stash":{
             "upgradable": true,
@@ -276,7 +280,7 @@
 
         "Prapor_Hideout":{
 
-            "access_via":["PraporZone"],
+            "access_via":["PraporZone1", "PraporZone2"],
             
             "stations": {
                 "all_stations": true
@@ -347,11 +351,11 @@
             }
         },
 
-        "PraporZone":{
+        "PraporZone1":{
             "is_checkpoint": true,
 
             "access_via":{
-                "bigmap": ["Railroad To Military Base"],
+                "bigmap": ["Railroad To Military Base", "Beyond Fuel Tank"],
                 "rezervbase": ["EXFIL_Train", "EXFIL_vent"],
                 "lighthouse": [" V-Ex_light"]
 
@@ -361,6 +365,18 @@
                 "rezervbase": "Train Station",
                 "bigmap": "Railroad To Military Base",
                 "lighthouse": "Lighthouse Vehicle Extract" 
+            }
+        },
+
+        "PraporZone2":{
+            "access_via":{
+                "bigmap": ["Shack"],
+                "rezervbase": ["EXFIL_ScavCooperation"]
+            },
+
+            "can_infil_to":{
+                "bigmap": "Military Base CP",
+                "rezervbase": "Scav lands"
             }
         },
 
@@ -496,18 +512,6 @@
             "can_infil_to":{
                 "bigmap": "RR To Port",
                 "shoreline": "Railway Bridge"
-            }
-        },
-
-        "Customs.MilBaseCP":{
-            "access_via":{
-                "bigmap": ["Shack"],
-                "rezervbase": ["EXFIL_ScavCooperation"]
-            },
-
-            "can_infil_to":{
-                "bigmap": "Military Base CP",
-                "rezervbase": "Scav lands"
             }
         },
 
