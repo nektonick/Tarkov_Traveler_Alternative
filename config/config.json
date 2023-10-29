@@ -65,7 +65,11 @@
         "RagmanZone3",
         "MechanicZone1",
         "MechanicZone2",
-        "MechanicZone3"
+        "MechanicZone3",
+        "Lab1",
+        "Lab2",
+        "Lab3",
+        "Lab4"
     ],
 
     
@@ -102,7 +106,11 @@
                 "RagmanZone3",
                 "MechanicZone1",
                 "MechanicZone2",
-                "MechanicZone3"
+                "MechanicZone3",
+                "Lab1",
+                "Lab2",
+                "Lab3",
+                "Lab4"
             ]
         },
 
@@ -132,7 +140,11 @@
                 "RagmanZone3",
                 "MechanicZone1",
                 "MechanicZone2",
-                "MechanicZone3"
+                "MechanicZone3",
+                "Lab1",
+                "Lab2",
+                "Lab3",
+                "Lab4"
             ]
         },
 
@@ -162,7 +174,11 @@
                 "RagmanZone3",
                 "MechanicZone1",
                 "MechanicZone2",
-                "MechanicZone3"
+                "MechanicZone3",
+                "Lab1",
+                "Lab2",
+                "Lab3",
+                "Lab4"
             ]
         }
     },
@@ -286,7 +302,11 @@
                 "RagmanZone3",
                 "MechanicZone1",
                 "MechanicZone2",
-                "MechanicZone3"
+                "MechanicZone3",
+                "Lab1",
+                "Lab2",
+                "Lab3",
+                "Lab4"
             ]
         }
     },
@@ -306,13 +326,17 @@
             "upgradable": false,
             "size_h": 10,
             "size_v": 28,
-            "access_via": ["CustomsStash1"]
+            "access_via": [
+                "CustomsStash1"
+            ]
         },
         "CustomsStash2":{
             "upgradable": false,
             "size_h": 10,
             "size_v": 28,
-            "access_via": ["CustomsStash2"]
+            "access_via": [
+                "CustomsStash2"
+            ]
         },
         "Prapor_Stash":{
             "upgradable": true,
@@ -373,6 +397,38 @@
                 "SkierZone3",
                 "SkierZone4",
                 "SkierZone5"
+            ]
+        },
+        "Lab1":{
+            "upgradable": false,
+            "size_h": 10,
+            "size_v": 28,
+            "access_via": [
+                "Lab1"
+            ]
+        },
+        "Lab2":{
+            "upgradable": false,
+            "size_h": 10,
+            "size_v": 28,
+            "access_via": [
+                "Lab2"
+            ]
+        },
+        "Lab3":{
+            "upgradable": false,
+            "size_h": 10,
+            "size_v": 28,
+            "access_via": [
+                "Lab3"
+            ]
+        },
+        "Lab4":{
+            "upgradable": false,
+            "size_h": 10,
+            "size_v": 28,
+            "access_via": [
+                "Lab4"
             ]
         }
     },
@@ -775,91 +831,51 @@
             }
         },
 
-        "Streets.SewerRiver--Lab.SewageConduit":{
-
+        "Lab1": {
             "access_via":{
-                "tarkovstreets": ["E2"],
-                "laboratory": ["lab_Under_Storage_Collector"]
+                "tarkovstreets": ["scav_e7"],
+                "laboratory": ["lab_Parking_Gate", "lab_Hangar_Gate"]
             },
 
             "can_infil_to":{
-                "tarkovstreets": "Sewer River",
-                "laboratory": "Lab Sewage Conduit"
+                "tarkovstreets": "scav_e7",
+                "laboratory": "lab_Parking_Gate"
             }
         },
 
-        "Streets.BasementDescent--Lab.MainElevator":{
-
+        "Lab2": {
             "access_via":{
-                "tarkovstreets": ["scav_e1"],
-                "laboratory": ["lab_Elevator_Main"]
+                "tarkovstreets": ["Exit_E10_coop", "scav_e8", "scav_e1", "scav_e6", "scav_e2"],
+                "laboratory": ["lab_Elevator_Main", "lab_Elevator_Cargo", "lab_Elevator_Med"]
             },
 
             "can_infil_to":{
-                "tarkovstreets": "Basement Descent",
-                "laboratory": "Main Elevator"
+                "tarkovstreets": "Exit_E10_coop",
+                "laboratory": "lab_Elevator_Main"
             }
         },
 
-        "Streets.Catacombs--Lab.ParkingGate":{
-
-            "access_via":{
-                "tarkovstreets": ["scav_e2"],
-                "laboratory": ["lab_Parking_Gate"]
-            },
-
-            "can_infil_to":{
-                "tarkovstreets": "Catacombs",
-                "laboratory": "Parking Gate"
-            }
-        },
-
-        "Streets.VentilationShaft--Lab.VentilationShaft":{
-
+        "Lab3": {
             "access_via":{
                 "tarkovstreets": ["scav_e3"],
                 "laboratory": ["lab_Vent"]
             },
 
             "can_infil_to":{
-                "tarkovstreets": "Streets Vents",
-                "laboratory": "Lab Vents"
+                "tarkovstreets": "scav_e3",
+                "laboratory": "lab_Vent"
             }
         },
 
-        "Lab.HangarGate-alt>-Streets.Catacombs":{
-
+        "Lab4": {
             "access_via":{
-                "laboratory": ["lab_Hangar_Gate"]
+                "tarkovstreets": ["E2"],
+                "laboratory": ["lab_Under_Storage_Collector"]
             },
 
             "can_infil_to":{
-                "laboratory": "Hangar Gate",
-                "tarkovstreets": "Catacombs"
-            }
-        },
-
-        "Lab.MedElevator-alt>-Streets.BasementDescent":{
-
-            "access_via":{
-                "laboratory": ["lab_Elevator_Med"]
-            },
-
-            "can_infil_to":{
-                "laboratory": "Med Block Elevator",
-                "tarkovstreets": "Basement Descent"
-            }
-        },
-
-        "Lab.CargoElevator-alt>-Streets.BasementDescent":{
-
-            "access_via":{
-                "laboratory": ["lab_Elevator_Cargo"]
-            },
-
-            "can_infil_to":{
-                "laboratory": "Cargo Elevator",
-                "tarkovstreets": "Basement Descent"
+                "tarkovstreets": "E2",
+                "laboratory": "lab_Under_Storage_Collector"
             }
         }
     }

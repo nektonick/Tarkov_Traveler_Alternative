@@ -337,11 +337,11 @@
       "Position": [-8.757395, 2.31632733, 458.126923],
       "Rotation": 177.1993
     },
-    "Basement Descent": {
+    "scav_e1": {
       "Position": [73.63199, -2.13371778, 56.0767555],
       "Rotation": 326.0107
     },
-    "Catacombs": {
+    "scav_e2": {
       "Position": [-243.837051, 0.6605578, 243.027969],
       "Rotation": 124.062996
     },
@@ -353,7 +353,7 @@
       "Position": [-152.4702, 0.8981548, 76.18395],
       "Rotation": 10.636034
     },
-    "Sewer River": {
+    "E2": {
       "Position": [-263.4596, -2.58167219, 216.658859],
       "Rotation": 151.635468
     },
@@ -365,7 +365,7 @@
       "Position": [-244.822723, 6.355562, 344.1349],
       "Rotation": 87.62667
     },
-    "Streets Vents": {
+    "scav_e3": {
       "Position": [-123.828979, 2.30664325, 432.900574],
       "Rotation": 244.029388
     },
@@ -397,34 +397,44 @@
       "TODO": "check",
       "Position": [254.4, -5.9, 50.5],
       "Rotation": 304.3322
+    },
+    "Exit_E10_coop": {
+      "TODO": "change",
+      "Position": [-152.4702, 0.8981548, 76.18395],
+      "Rotation": 10.636034
+    },
+    "scav_e7": {
+      "TODO": "check",
+      "Position": [103.6, -1.9, -155.3],
+      "Rotation": 304.3322
     }
   },
   "laboratory": {
-    "Cargo Elevator": {
+    "lab_Elevator_Cargo": {
       "Position": [-114.2475, 4.101831, -408.6356],
       "Rotation": 270.727661
     },
-    "Hangar Gate": {
+    "lab_Hangar_Gate": {
       "Position": [-170.346313, 0.07315855, -249.111542],
       "Rotation": 208.741516
     },
-    "Lab Sewage Conduit": {
+    "lab_Under_Storage_Collector": {
       "Position": [-123.794968, -4.985455, -260.754242],
       "Rotation": 185.730515
     },
-    "Lab Vents": {
+    "lab_Vent": {
       "Position": [-142.8083, -4.053963, -400.147034],
       "Rotation": 38.8127365
     },
-    "Main Elevator": {
+    "lab_Elevator_Main": {
       "Position": [-279.4339, -4.050967, -334.7585],
       "Rotation": 73.58874
     },
-    "Med Block Elevator": {
+    "lab_Elevator_Med": {
       "Position": [-114.566971, -4.05397, -343.565735],
       "Rotation": 275.983582
     },
-    "Parking Gate": {
+    "lab_Parking_Gate": {
       "Position": [-231.813736, 0.0220247321, -426.099579],
       "Rotation": 14.0038671
     }
