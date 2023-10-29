@@ -52,6 +52,11 @@
       "Position": [489.120117, 1.40883172, 207.272552],
       "Rotation": 228.254486
     },
+    "Beyond Fuel Tank": {
+      "TODO": "change",
+      "Position": [489.120117, 1.40883172, 207.272552],
+      "Rotation": 228.254486
+    },
     "ZB-1011": {
       "Position": [629.4296, -2.77441788, -127.8221],
       "Rotation": 97.17987
@@ -187,7 +192,7 @@
     }
   },
   "rezervbase": {
-    "Scav lands": {
+    "EXFIL_ScavCooperation": {
       "Position": [-120.954071, -6.94097, -129.4829],
       "Rotation": 260.069275
     },
@@ -220,7 +225,7 @@
       "Position": [50.6118279, -6.97395849, 73.78378],
       "Rotation": 213.616745
     },
-    "Train Station": {
+    "EXFIL_Train": {
       "Position": [166.653687, -5.19410563, -144.143341],
       "Rotation": 191.8541
     },
@@ -298,7 +303,7 @@
       "Position": [-284.0998, 14.4007835, -161.669266],
       "Rotation": 126.306564
     },
-    "Lighthouse Vehicle Extract": {
+    " V-Ex_light": {
       "Position": [-316.70462, 15.1516333, -784.0004],
       "Rotation": 37.57063
     },
