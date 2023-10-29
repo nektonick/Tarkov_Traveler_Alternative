@@ -45,6 +45,8 @@
     },
     "checkpoints":[
         "BunkersSystem",
+        "CustomsStash1",
+        "CustomsStash2",
         "PraporZone1",
         "PraporZone2",
         "JaegerZone",
@@ -68,7 +70,11 @@
             "right_arm_rate": 1.05,
             "left_leg_rate": 1.1375,
             "right_leg_rate": 1.1375,
-            "access_via": ["BunkersSystem"]
+            "access_via": [
+                "BunkersSystem",
+                "CustomsStash1",
+                "CustomsStash2"
+            ]
         },
 
         "energy_regen":{
@@ -77,6 +83,8 @@
             "rate": 1,
             "access_via": [
                 "BunkersSystem",
+                "CustomsStash1",
+                "CustomsStash2",
                 "PraporZone1",
                 "PraporZone2",
                 "JaegerZone",
@@ -95,6 +103,8 @@
             "rate": 1,
             "access_via": [
                 "BunkersSystem",
+                "CustomsStash1",
+                "CustomsStash2",
                 "PraporZone1",
                 "PraporZone2",
                 "JaegerZone",
@@ -180,6 +190,8 @@
             "unlock_level": 10,
             "access_via": [
                 "BunkersSystem",
+                "CustomsStash1",
+                "CustomsStash2",
                 "PraporZone1",
                 "PraporZone2",
                 "JaegerZone",
@@ -201,6 +213,18 @@
             "size_h": 0,
             "size_v": 0,
             "access_via": ["BunkersSystem"]
+        },
+        "CustomsStash1":{
+            "upgradable": false,
+            "size_h": 10,
+            "size_v": 28,
+            "access_via": ["CustomsStash1"]
+        },
+        "CustomsStash2":{
+            "upgradable": false,
+            "size_h": 10,
+            "size_v": 28,
+            "access_via": ["CustomsStash2"]
         },
         "Prapor_Stash":{
             "upgradable": true,
@@ -348,6 +372,26 @@
                 "bigmap": "ZB-1011",
                 "woods": "Mountain Stash",
                 "rezervbase": "D-2"
+            }
+        },
+
+        "CustomsStash1": {
+            "access_via":{
+                "bigmap": ["Warehouse 4"]
+            },
+
+            "can_infil_to":{
+                "bigmap": "Warehouse 4"
+            }
+        },
+
+        "CustomsStash2": {
+            "access_via":{
+                "bigmap": ["Factory Shacks"]
+            },
+
+            "can_infil_to":{
+                "bigmap": "Factory Shacks"
             }
         },
 

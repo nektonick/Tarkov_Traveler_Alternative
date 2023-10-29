@@ -115,6 +115,16 @@
     "Administration Gate": {
       "Position": [666.540161, 1.06852221, -49.012455],
       "Rotation": 265.986572
+    },
+    "Warehouse 4": {
+      "TODO": "Change",
+      "Position": [199.2377, -2.81965065, -145.043625],
+      "Rotation": 341.8522
+    },
+    "Factory Shacks": {
+      "TODO": "Change",
+      "Position": [199.2377, -2.81965065, -145.043625],
+      "Rotation": 341.8522
     }
   },
   "woods": {
