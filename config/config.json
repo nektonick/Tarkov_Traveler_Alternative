@@ -456,7 +456,6 @@
         },
 
         "PraporZone1":{
-            "is_checkpoint": true,
 
             "access_via":{
                 "bigmap": ["Railroad To Military Base", "Beyond Fuel Tank"],
@@ -523,8 +522,6 @@
         },
 
         "PKeeperZone":{
-            "is_checkpoint": true,
-
             "access_via":{
                 "woods": ["UN Roadblock", "un-sec", "Old Station"],
                 "bigmap": ["RUAF Roadblock"],
@@ -565,8 +562,6 @@
         },
 
         "FactoryGate0":{
-            "is_checkpoint": true,
-
             "access_via":{
                 "factory4_day": ["Gate 0"],
                 "factory4_night": ["Gate 0"],
@@ -581,8 +576,6 @@
         },
 
         "FactoryGate3":{
-            "is_checkpoint": true,
-
             "access_via":{
                 "factory4_day": ["Gate 3"],
                 "factory4_night": ["Gate 3"],
@@ -597,8 +590,6 @@
         },
 
         "FactoryGateM":{ 
-            "is_checkpoint": true,
-
             "access_via":{
                 "factory4_day": ["Gate m"],
                 "factory4_night": ["Gate m"],
@@ -609,96 +600,6 @@
                 "factory4_day": "Med tent gates",
                 "factory4_night": "Med tent gates",
                 "bigmap": "Old Gas Scav"
-            }
-        },
-
-        "Customs.RRtoTarkov--Interchange.Railway":{ 
-            "access_via":{
-                "interchange": ["NW Exfil"],
-                "bigmap": ["Railroad To Tarkov"]
-            },
-
-            "can_infil_to":{
-                "interchange": "Railway",
-                "bigmap": "RR To Tarkov"
-            }
-        },
-
-        "Customs.Railway--Shoreline.Railway":{
-
-            "access_via":{
-                "bigmap": ["Railroad To Port"],
-                "shoreline": ["Road_at_railbridge"]
-            },
-
-            "can_infil_to":{
-                "bigmap": "RR To Port",
-                "shoreline": "Railway Bridge"
-            }
-        },
-
-        "Woods.Car--Streets.ZmeevskyAlley":{
-
-            "access_via":{
-                "woods": ["South V-Ex", "Outskirts Water"],
-                "tarkovstreets": ["E5"]
-            },
-
-            "can_infil_to":{
-                "tarkovstreets": "Kamchatskya Arch",
-                "woods": "Bridge Car"
-            }
-        },
-
-        "Reserve.CliffDescent--Shoreline.NorthernCliffs":{
-
-            "access_via":{
-                "rezervbase": ["Exit4", "Alpinist"],
-                "shoreline": ["Rock Passage"]
-            },
-
-            "can_infil_to":{
-                "rezervbase": "Cliff",
-                "shoreline": "Shoreline Northern Cliffs"
-            }
-        },
-
-        "Interchange.Car--Streets.Underpass":{
-
-            "access_via":{
-                "interchange": ["PP Exfil"],
-                "tarkovstreets": ["E7_car"]
-            },
-
-            "can_infil_to":{
-                "interchange": "Interchange Vehicle Extract",
-                "tarkovstreets": "Streets Vehicle Extract" 
-            }
-        },
-
-        "Shoreline.NorthFencePassage--Customs.Car":{
-
-            "access_via":{
-                "shoreline": ["South Fence Passage"],
-                "bigmap": ["Dorms V-Ex"]
-            },
-
-            "can_infil_to":{
-                "shoreline": "North Fence Passage",
-                "bigmap": "Dorms Car"
-            }
-        },
-
-        "Lighthouse.Grotto--Shoreline.PierBoat":{
-
-            "access_via":{
-                "lighthouse": ["Scav_Hideout_at_the_grotto"],
-                "shoreline": ["Pier Boat"]
-            },
-
-            "can_infil_to":{
-                "lighthouse": "Grotto",
-                "shoreline": "Pier Boat"
             }
         },
 
@@ -813,18 +714,6 @@
             "can_infil_to":{
                 "laboratory": "Cargo Elevator",
                 "tarkovstreets": "Basement Descent"
-            }
-        },
-
-        "Woods.RUAF" : {
-            "access_via":{
-                "woods": ["RUAF Gate"],
-                "bigmap": ["Administration Gate"]
-            },
-
-            "can_infil_to":{
-                "woods": "RUAF Gate",
-                "bigmap": "Administration Gate"
             }
         }
     }
