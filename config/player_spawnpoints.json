@@ -96,7 +96,7 @@
       "Position": [-145.3853, 2.62803984, -23.7549515],
       "Rotation": 1.93337643
     },
-    "RR To Tarkov": {
+    "Railroad To Tarkov": {
       "Position": [-149.420151, 3.40357137, -178.949509],
       "Rotation": 6.05172825
     },
@@ -230,7 +230,7 @@
     }
   },
   "interchange": {
-    "Interchange Vehicle Extract": {
+    "PP Exfil": {
       "Position": [-242.849625, 21.32544, -372.680878],
       "Rotation": 52.06011
     },
@@ -238,7 +238,7 @@
       "Position": [-242.849625, 21.32544, -372.680878],
       "Rotation": 52.06011
     },
-    "Railway": {
+    "NW Exfil": {
       "Position": [473.177979, 18.4533634, -390.7554],
       "Rotation": 281.3094
     },
@@ -246,7 +246,7 @@
       "Position": [-328.429871, 21.3254356, 260.571655],
       "Rotation": 73.0782242
     },
-    "Scav Camp": {
+    "Interchange Cooperation": {
       "Position": [283.740051, 21.3254337, -34.4532776],
       "Rotation": 194.086945
     },
@@ -328,7 +328,7 @@
     }
   },
   "tarkovstreets": {
-    "Streets Vehicle Extract": {
+    "E7_car": {
       "Position": [-8.757395, 2.31632733, 458.126923],
       "Rotation": 177.1993
     },

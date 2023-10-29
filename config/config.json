@@ -59,6 +59,8 @@
         "SkierZone4",
         "SkierZone5",
         "RagmanZone1",
+        "RagmanZone2",
+        "RagmanZone3",
         "FactoryGate0",
         "FactoryGate3",
         "FactoryGateM"
@@ -111,6 +113,8 @@
                 "SkierZone4",
                 "SkierZone5",
                 "RagmanZone1",
+                "RagmanZone2",
+                "RagmanZone3",
                 "FactoryGate0",
                 "FactoryGate3",
                 "FactoryGateM"
@@ -137,6 +141,8 @@
                 "SkierZone4",
                 "SkierZone5",
                 "RagmanZone1",
+                "RagmanZone2",
+                "RagmanZone3",
                 "FactoryGate0",
                 "FactoryGate3",
                 "FactoryGateM"
@@ -201,7 +207,11 @@
             "trader_location_text": "A survivor camp outside the Mall.",
             "accessible_everywhere": false,
             "is_medic": true,
-            "access_via": ["RagmanZone1"]
+            "access_via": [
+                "RagmanZone1",
+                "RagmanZone2",
+                "RagmanZone3"
+            ]
         },
         "Peacekeeper": {
             "trader_id": "5935c25fb3acc3127c3d8cd9",
@@ -240,6 +250,8 @@
                 "SkierZone4",
                 "SkierZone5",
                 "RagmanZone1",
+                "RagmanZone2",
+                "RagmanZone3",
                 "FactoryGate0",
                 "FactoryGate3",
                 "FactoryGateM"
@@ -300,7 +312,11 @@
             "upgradable": true,
             "size_h": 0,
             "size_v": 0,
-            "access_via": ["RagmanZone1"]
+            "access_via": [
+                "RagmanZone1",
+                "RagmanZone2",
+                "RagmanZone3"
+            ]
         },
         "Skier_Stash":{
             "upgradable": true,
@@ -401,7 +417,11 @@
 
         "Ragman_Hideout":{
 
-            "access_via":["RagmanZone1"],
+            "access_via":[
+                "RagmanZone1",
+                "RagmanZone2",
+                "RagmanZone3"
+            ],
             
             "stations": {
                 "all_stations": true
@@ -420,7 +440,7 @@
 
     "offraid_positions":{
 
-        "BunkersSystem":{ 
+        "BunkersSystem":{
 
             "access_via":{
                 "bigmap": ["ZB-1011", "ZB-1012", "Old Gas Station", "EXFIL_ZB013", "Warehouse 17"],
@@ -604,8 +624,32 @@
             },
 
             "can_infil_to":{
-                "interchange": "Scav Camp",
+                "interchange": "Interchange Cooperation",
                 "bigmap": "Crossroads"
+            }
+        },
+
+        "RagmanZone2":{ 
+            "access_via":{
+                "bigmap": ["Railroad To Tarkov", "Trailer Park Workers Shack"],
+                "interchange": ["NW Exfil"]
+            },
+
+            "can_infil_to":{
+                "bigmap": "Railroad To Tarkov",
+                "interchange": "NW Exfil"
+            }
+        },
+
+        "RagmanZone3":{
+            "access_via":{
+                "interchange": ["PP Exfil"],
+                "tarkovstreets": ["E7_car"]
+            },
+
+            "can_infil_to":{
+                "interchange": "PP Exfil",
+                "tarkovstreets": "E7_car"
             }
         },
 
@@ -637,7 +681,7 @@
             }
         },
 
-        "FactoryGateM":{ 
+        "FactoryGateM":{
             "access_via":{
                 "factory4_day": ["Gate m"],
                 "factory4_night": ["Gate m"],
