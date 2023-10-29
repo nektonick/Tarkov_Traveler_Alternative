@@ -53,8 +53,12 @@
         "JaegerZone2",
         "JaegerZone3",
         "PKeeperZone",
-        "SkierZone",
-        "RagmanZone",
+        "SkierZone1",
+        "SkierZone2",
+        "SkierZone3",
+        "SkierZone4",
+        "SkierZone5",
+        "RagmanZone1",
         "FactoryGate0",
         "FactoryGate3",
         "FactoryGateM"
@@ -78,7 +82,12 @@
                 "CustomsStash2",
                 "JaegerZone1",
                 "JaegerZone2",
-                "JaegerZone3"
+                "JaegerZone3",
+                "SkierZone1",
+                "SkierZone2",
+                "SkierZone3",
+                "SkierZone4",
+                "SkierZone5"
             ]
         },
 
@@ -96,8 +105,12 @@
                 "JaegerZone2",
                 "JaegerZone3",
                 "PKeeperZone",
-                "SkierZone",
-                "RagmanZone",
+                "SkierZone1",
+                "SkierZone2",
+                "SkierZone3",
+                "SkierZone4",
+                "SkierZone5",
+                "RagmanZone1",
                 "FactoryGate0",
                 "FactoryGate3",
                 "FactoryGateM"
@@ -118,8 +131,12 @@
                 "JaegerZone2",
                 "JaegerZone3",
                 "PKeeperZone",
-                "SkierZone",
-                "RagmanZone",
+                "SkierZone1",
+                "SkierZone2",
+                "SkierZone3",
+                "SkierZone4",
+                "SkierZone5",
+                "RagmanZone1",
                 "FactoryGate0",
                 "FactoryGate3",
                 "FactoryGateM"
@@ -150,7 +167,13 @@
             "trader_location_text": "Somewhere in the basement of the Health Resort.",
             "accessible_everywhere": false,
             "is_medic": true,
-            "access_via": ["SkierZone"]
+            "access_via": [
+                "SkierZone1",
+                "SkierZone2",
+                "SkierZone3",
+                "SkierZone4",
+                "SkierZone5"
+            ]
         },
         "Jaeger": {
             "trader_id": "5c0647fdd443bc2504c2d371",
@@ -178,7 +201,7 @@
             "trader_location_text": "A survivor camp outside the Mall.",
             "accessible_everywhere": false,
             "is_medic": true,
-            "access_via": ["RagmanZone"]
+            "access_via": ["RagmanZone1"]
         },
         "Peacekeeper": {
             "trader_id": "5935c25fb3acc3127c3d8cd9",
@@ -211,8 +234,12 @@
                 "JaegerZone2",
                 "JaegerZone3",
                 "PKeeperZone",
-                "SkierZone",
-                "RagmanZone",
+                "SkierZone1",
+                "SkierZone2",
+                "SkierZone3",
+                "SkierZone4",
+                "SkierZone5",
+                "RagmanZone1",
                 "FactoryGate0",
                 "FactoryGate3",
                 "FactoryGateM"
@@ -273,13 +300,19 @@
             "upgradable": true,
             "size_h": 0,
             "size_v": 0,
-            "access_via": ["RagmanZone"]
+            "access_via": ["RagmanZone1"]
         },
         "Skier_Stash":{
             "upgradable": true,
             "size_h": 0,
             "size_v": 0,
-            "access_via": ["SkierZone"]
+            "access_via": [
+                "SkierZone1",
+                "SkierZone2",
+                "SkierZone3",
+                "SkierZone4",
+                "SkierZone5"
+            ]
         }
     },
 
@@ -332,7 +365,13 @@
 
         "Skier_Hideout":{
 
-            "access_via":["SkierZone"],
+            "access_via":[
+                "SkierZone1",
+                "SkierZone2",
+                "SkierZone3",
+                "SkierZone4",
+                "SkierZone5"
+            ],
             
             "stations": {
                 "all_stations": true
@@ -362,7 +401,7 @@
 
         "Ragman_Hideout":{
 
-            "access_via":["RagmanZone"],
+            "access_via":["RagmanZone1"],
             
             "stations": {
                 "all_stations": true
@@ -382,7 +421,6 @@
     "offraid_positions":{
 
         "BunkersSystem":{ 
-            "is_checkpoint": true,
 
             "access_via":{
                 "bigmap": ["ZB-1011", "ZB-1012", "Old Gas Station", "EXFIL_ZB013", "Warehouse 17"],
@@ -500,9 +538,7 @@
             }
         },
 
-        "SkierZone":{
-            "is_checkpoint": true,
-           
+        "SkierZone1":{           
             "access_via":{
                 "bigmap": ["Sniper Roadblock"],
                 "shoreline": ["Road to Customs"],
@@ -512,16 +548,14 @@
             "can_infil_to":{
                 "bigmap": "Sniper Roadblock",
                 "shoreline": "Road to Customs",
-                "interchange": "Emercom"
+                "interchange": "SE Exfil"
             }
         },
 
-        "RagmanZone":{
-            "is_checkpoint": true,
-
+        "RagmanZone1":{
             "access_via":{
                 "interchange": ["Interchange Cooperation"],
-                "bigmap": ["Crossroads"]
+                "bigmap": ["Crossroads", "Trailer Park"]
             },
 
             "can_infil_to":{

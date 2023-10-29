@@ -92,7 +92,7 @@
       "Position": [458.392639, 4.95283127, 181.01564],
       "Rotation": 256.057983
     },
-    "RR To Port": {
+    "Railroad To Port": {
       "Position": [-145.3853, 2.62803984, -23.7549515],
       "Rotation": 1.93337643
     },
@@ -104,7 +104,7 @@
       "Position": [48.11184, 1.10045552, -84.83577],
       "Rotation": 155.8685
     },
-    "Dorms Car": {
+    "Dorms V-Ex": {
       "Position": [191.627884, -2.16589069, 208.912079],
       "Rotation": 278.0221
     },
@@ -195,7 +195,7 @@
       "Position": [-196.7502, -5.37225676, -114.267555],
       "Rotation": 93.10983
     },
-    "Cliff": {
+    "Alpinist": {
       "Position": [-15.9683733, 18.4609661, 195.898743],
       "Rotation": 190.4635
     },
@@ -242,7 +242,7 @@
       "Position": [473.177979, 18.4533634, -390.7554],
       "Rotation": 281.3094
     },
-    "Emercom": {
+    "SE Exfil": {
       "Position": [-328.429871, 21.3254356, 260.571655],
       "Rotation": 73.0782242
     },
@@ -256,7 +256,7 @@
     }
   },
   "shoreline": {
-    "North Fence Passage": {
+    "South Fence Passage": {
       "Position": [-510.430939, -11.9056053, -373.174316],
       "Rotation": 41.4962769
     },
@@ -280,11 +280,11 @@
       "Position": [-967.462463, -59.678566, 375.060669],
       "Rotation": 166.59436
     },
-    "Shoreline Northern Cliffs": {
+    "Rock Passage": {
       "Position": [-174.818451, -11.1724739, -364.436646],
       "Rotation": 330.086456
     },
-    "Railway Bridge": {
+    "Road_at_railbridge": {
       "Position": [-1023.37292, -60.67251, 314.364075],
       "Rotation": 24.1157665
     },
@@ -306,7 +306,7 @@
       "Position": [-54.28882, 5.95763159, 327.053345],
       "Rotation": 106.236305
     },
-    "Grotto": {
+    "Scav_Hideout_at_the_grotto": {
       "Position": [194.516525, -0.48209092, -491.773224],
       "Rotation": 182.743759
     },
