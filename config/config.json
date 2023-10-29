@@ -339,13 +339,13 @@
             "is_checkpoint": true,
 
             "access_via":{
-                "bigmap": ["Warehouse 17", "ZB-1011", "ZB-1012", "EXFIL_ZB013", "Old Gas Station"],
-                "woods": ["ZB-014", "ZB-016", "Mountain Stash"],
-                "rezervbase": ["EXFIL_BUNKER_D2", "EXFIL_Bunker "]
+                "bigmap": ["ZB-1011", "ZB-1012", "Old Gas Station", "EXFIL_ZB013", "Warehouse 17"],
+                "woods": ["Mountain Stash", "ZB-014", "ZB-016", "East Gate"],
+                "rezervbase": ["EXFIL_Bunker_D2", "EXFIL_Bunker", "Exit3", "Sewer Manhole"]
             },
 
             "can_infil_to":{
-                "bigmap": "ZB-1012",
+                "bigmap": "ZB-1011",
                 "woods": "Mountain Stash",
                 "rezervbase": "D-2"
             }
