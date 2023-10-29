@@ -174,7 +174,9 @@
             "trader_location_text": "A warehouse somewhere in Customs.",
             "accessible_everywhere": false,
             "is_medic": true,
-            "access_via": ["BunkersSystem"]
+            "access_via": [
+                "BunkersSystem"
+            ]
         },
         "Prapor": {
             "trader_id": "54cb50c76803fa8b248b4571",
@@ -292,7 +294,9 @@
             "upgradable": true,
             "size_h": 0,
             "size_v": 0,
-            "access_via": ["BunkersSystem"]
+            "access_via": [
+                "BunkersSystem"
+            ]
         },
         "CustomsStash1":{
             "upgradable": false,
@@ -371,7 +375,9 @@
     "hideouts":{
         "Home_Hideout":{
 
-            "access_via":["BunkersSystem"],
+            "access_via":[
+                "BunkersSystem"
+            ],
             
             "stations": {
                 "generator": true,
@@ -481,7 +487,6 @@
     "offraid_positions":{
 
         "BunkersSystem":{
-
             "access_via":{
                 "bigmap": ["ZB-1011", "ZB-1012", "Old Gas Station", "EXFIL_ZB013", "Warehouse 17"],
                 "woods": ["Mountain Stash", "ZB-014", "ZB-016", "East Gate"],
@@ -491,7 +496,7 @@
             "can_infil_to":{
                 "bigmap": "ZB-1011",
                 "woods": "Mountain Stash",
-                "rezervbase": "D-2"
+                "rezervbase": "EXFIL_Bunker_D2"
             }
         },
 
