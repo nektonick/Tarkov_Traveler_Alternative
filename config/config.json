@@ -63,9 +63,9 @@
         "RagmanZone1",
         "RagmanZone2",
         "RagmanZone3",
-        "FactoryGate0",
-        "FactoryGate3",
-        "FactoryGateM"
+        "MechanicZone1",
+        "MechanicZone2",
+        "MechanicZone3"
     ],
 
     
@@ -100,9 +100,9 @@
                 "RagmanZone1",
                 "RagmanZone2",
                 "RagmanZone3",
-                "FactoryGate0",
-                "FactoryGate3",
-                "FactoryGateM"
+                "MechanicZone1",
+                "MechanicZone2",
+                "MechanicZone3"
             ]
         },
 
@@ -130,9 +130,9 @@
                 "RagmanZone1",
                 "RagmanZone2",
                 "RagmanZone3",
-                "FactoryGate0",
-                "FactoryGate3",
-                "FactoryGateM"
+                "MechanicZone1",
+                "MechanicZone2",
+                "MechanicZone3"
             ]
         },
 
@@ -160,9 +160,9 @@
                 "RagmanZone1",
                 "RagmanZone2",
                 "RagmanZone3",
-                "FactoryGate0",
-                "FactoryGate3",
-                "FactoryGateM"
+                "MechanicZone1",
+                "MechanicZone2",
+                "MechanicZone3"
             ]
         }
     },
@@ -221,7 +221,11 @@
             "trader_location_text": "An old appartment building in Tarkov City.",
             "accessible_everywhere": false,
             "is_medic": true,
-            "access_via": ["FactoryGate0", "FactoryGate3", "FactoryGateM"]
+            "access_via": [
+                "MechanicZone1",
+                "MechanicZone2", 
+                "MechanicZone3"
+            ]
         },
         "Ragman": {
             "trader_id": "5ac3b934156ae10c4430e83c",
@@ -280,9 +284,9 @@
                 "RagmanZone1",
                 "RagmanZone2",
                 "RagmanZone3",
-                "FactoryGate0",
-                "FactoryGate3",
-                "FactoryGateM"
+                "MechanicZone1",
+                "MechanicZone2",
+                "MechanicZone3"
             ]
         }
     },
@@ -333,7 +337,11 @@
             "upgradable": true,
             "size_h": 0,
             "size_v": 0,
-            "access_via": ["FactoryGate0","FactoryGate3","FactoryGateM"]
+            "access_via": [
+                "MechanicZone1",
+                "MechanicZone2",
+                "MechanicZone3"
+            ]
         },
         "Pkeeper_Stash":{
             "upgradable": true,
@@ -450,7 +458,11 @@
 
         "Mechanic_Hideout":{
 
-            "access_via":["FactoryGate0", "FactoryGate3", "FactoryGateM"],
+            "access_via":[
+                "MechanicZone1",
+                "MechanicZone2",
+                "MechanicZone3"
+            ],
             
             "stations": {
                 "all_stations": true
@@ -721,10 +733,10 @@
             }
         },
 
-        "FactoryGate0":{
+        "MechanicZone1":{
             "access_via":{
-                "factory4_day": ["Gate 0"],
-                "factory4_night": ["Gate 0"],
+                "factory4_day": ["Gate 0", "Camera Bunker Door"],
+                "factory4_night": ["Gate 0", "Camera Bunker Door"],
                 "bigmap": ["Factory Far Corner"]
             },
 
@@ -735,10 +747,10 @@
             }
         },
 
-        "FactoryGate3":{
+        "MechanicZone2":{
             "access_via":{
-                "factory4_day": ["Gate 3"],
-                "factory4_night": ["Gate 3"],
+                "factory4_day": ["Gate 3", "Office Window"],
+                "factory4_night": ["Gate 3", "Office Window"],
                 "woods": ["Factory Gate"]
             },
 
@@ -749,17 +761,17 @@
             }
         },
 
-        "FactoryGateM":{
+        "MechanicZone3":{
             "access_via":{
-                "factory4_day": ["Gate m"],
-                "factory4_night": ["Gate m"],
+                "factory4_day": ["Gate m", "Cellars"],
+                "factory4_night": ["Gate m", "Cellars"],
                 "bigmap": ["Old Azs Gate"]
             },
 
             "can_infil_to":{
-                "factory4_day": "Med tent gates",
-                "factory4_night": "Med tent gates",
-                "bigmap": "Old Gas Scav"
+                "factory4_day": "Gate m",
+                "factory4_night": "Gate m",
+                "bigmap": "Old Azs Gate"
             }
         },
 
