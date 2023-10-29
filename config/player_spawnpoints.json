@@ -108,7 +108,7 @@
       "Position": [191.627884, -2.16589069, 208.912079],
       "Rotation": 278.0221
     },
-    "Scav CP": {
+    "Military Checkpoint": {
       "Position": [647.141, -0.3182248, -25.9616776],
       "Rotation": 307.1494
     },
@@ -148,7 +148,7 @@
       "Position": [190.682846, -14.9319124, 219.147934],
       "Rotation": 227.765961
     },
-    "Bridge Car": {
+    "South V-Ex": {
       "Position": [-487.348541, 15.0604687, -497.965179],
       "Rotation": 24.781599
     },
@@ -310,7 +310,7 @@
       "Position": [194.516525, -0.48209092, -491.773224],
       "Rotation": 182.743759
     },
-    "Northern CP": {
+    "Nothern_Checkpoint": {
       "Position": [115.480957, 4.61967325, -980.5756],
       "Rotation": 347.679443
     },
@@ -388,7 +388,8 @@
       "Position": [269.3, 3.4, 427.25],
       "Rotation": 87.62667
     },
-    "Kamchatskya Arch": {
+    "scav_e5": {
+      "TODO": "check",
       "Position": [254.4, -5.9, 50.5],
       "Rotation": 304.3322
     }

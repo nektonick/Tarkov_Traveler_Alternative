@@ -49,7 +49,9 @@
         "CustomsStash2",
         "PraporZone1",
         "PraporZone2",
-        "JaegerZone",
+        "JaegerZone1",
+        "JaegerZone2",
+        "JaegerZone3",
         "PKeeperZone",
         "SkierZone",
         "RagmanZone",
@@ -73,7 +75,10 @@
             "access_via": [
                 "BunkersSystem",
                 "CustomsStash1",
-                "CustomsStash2"
+                "CustomsStash2",
+                "JaegerZone1",
+                "JaegerZone2",
+                "JaegerZone3"
             ]
         },
 
@@ -87,7 +92,9 @@
                 "CustomsStash2",
                 "PraporZone1",
                 "PraporZone2",
-                "JaegerZone",
+                "JaegerZone1",
+                "JaegerZone2",
+                "JaegerZone3",
                 "PKeeperZone",
                 "SkierZone",
                 "RagmanZone",
@@ -107,7 +114,9 @@
                 "CustomsStash2",
                 "PraporZone1",
                 "PraporZone2",
-                "JaegerZone",
+                "JaegerZone1",
+                "JaegerZone2",
+                "JaegerZone3",
                 "PKeeperZone",
                 "SkierZone",
                 "RagmanZone",
@@ -149,7 +158,11 @@
             "trader_location_text": "A bunker in the northern parts of Woods.",
             "accessible_everywhere": false,
             "is_medic": true,
-            "access_via": ["JaegerZone"]
+            "access_via": [
+                "JaegerZone1",
+                "JaegerZone2",
+                "JaegerZone3"
+            ]
         },
         "Mechanic": {
             "trader_id": "5a7c2eca46aef81a7ca2145d",
@@ -194,7 +207,9 @@
                 "CustomsStash2",
                 "PraporZone1",
                 "PraporZone2",
-                "JaegerZone",
+                "JaegerZone1",
+                "JaegerZone2",
+                "JaegerZone3",
                 "PKeeperZone",
                 "SkierZone",
                 "RagmanZone",
@@ -236,7 +251,11 @@
             "upgradable": true,
             "size_h": 0,
             "size_v": 0,
-            "access_via": ["JaegerZone"]
+            "access_via": [
+                "JaegerZone1",
+                "JaegerZone2",
+                "JaegerZone3"
+            ]
         },
         "Mechanic_Stash":{
             "upgradable": true,
@@ -321,8 +340,11 @@
         },
 
         "Jaeger_Hideout":{
-
-            "access_via":["JaegerZone"],
+            "access_via":[
+                "JaegerZone1",
+                "JaegerZone2",
+                "JaegerZone3"
+            ],
             
             "stations": {
                 "all_stations": true
@@ -424,19 +446,41 @@
             }
         },
 
-        "JaegerZone":{
-            "is_checkpoint": true,
-
+        "JaegerZone1":{
             "access_via":{
-                "woods": ["Outskirts", "Scav House", "The Boat", "East Gate"],
+                "woods": ["Outskirts", "Scav House", "The Boat", "Dead Man's Place"],
                 "lighthouse": ["Nothern_Checkpoint"],
                 "bigmap": ["Military Checkpoint"]
             },
 
             "can_infil_to":{
                 "woods": "Outskirts",
-                "lighthouse": "Northern CP",
-                "bigmap": "Scav CP"
+                "lighthouse": "Nothern_Checkpoint",
+                "bigmap": "Military Checkpoint"
+            }
+        },
+
+        "JaegerZone2":{
+            "access_via":{
+                "woods": ["South V-Ex", "Outskirts Water"],
+                "tarkovstreets": ["scav_e5"]
+            },
+
+            "can_infil_to":{
+                "woods": "South V-Ex",
+                "tarkovstreets": "scav_e5"
+            }
+        },
+
+        "JaegerZone3" : {
+            "access_via":{
+                "woods": ["RUAF Gate"],
+                "bigmap": ["Administration Gate"]
+            },
+
+            "can_infil_to":{
+                "woods": "RUAF Gate",
+                "bigmap": "Administration Gate"
             }
         },
 
