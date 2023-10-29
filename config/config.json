@@ -549,6 +549,54 @@
             }
         },
 
+        "SkierZone2":{
+            "access_via":{
+                "bigmap": ["Dorms V-Ex", "Old Road Gate"],
+                "shoreline": ["South Fence Passage"]
+            },
+
+            "can_infil_to":{
+                "bigmap": "Dorms V-Ex",
+                "shoreline": "South Fence Passage"
+            }
+        },
+
+        "SkierZone3":{
+            "access_via":{
+                "bigmap": ["Railroad To Port", "Smuggler's Boat"],
+                "shoreline": ["Road_at_railbridge"]
+            },
+
+            "can_infil_to":{
+                "bigmap": "Railroad To Port",
+                "shoreline": "Road_at_railbridge"
+            }
+        },
+
+        "SkierZone4":{
+            "access_via":{
+                "shoreline": ["Pier Boat"],
+                "lighthouse": ["Scav_Hideout_at_the_grotto"]
+            },
+
+            "can_infil_to":{
+                "shoreline": "Pier Boat",
+                "lighthouse": "Scav_Hideout_at_the_grotto"
+            }
+        },
+
+        "SkierZone5":{
+            "access_via":{
+                "rezervbase": ["Alpinist", "Exit4"],
+                "shoreline": ["Rock Passage"]
+            },
+
+            "can_infil_to":{
+                "rezervbase": "Alpinist",
+                "shoreline": "Rock Passage"
+            }
+        },
+
         "RagmanZone1":{
             "access_via":{
                 "interchange": ["Interchange Cooperation"],
