@@ -480,6 +480,26 @@ export class GetData{
                 "passiveBonusesEnabled": true,
                 "slots": [],
                 "type": 23
+            },
+            {
+                "type": 24,
+                "level": 0,
+                "active": true,
+                "passiveBonusesEnabled": true,
+                "completeTime": 0,
+                "constructing": false,
+                "slots": [],
+                "lastRecipe": ""
+            },
+            {
+                "type": 25,
+                "level": 0,
+                "active": true,
+                "passiveBonusesEnabled": true,
+                "completeTime": 0,
+                "constructing": false,
+                "slots": [],
+                "lastRecipe": ""
             }
         ]
 
@@ -638,9 +658,9 @@ export class GetData{
             mapName: ["interchange"],
         
             pmc: [
-                "NW Exfil",
+                "NW Exfil", // Railway
                 "SE Exfil",
-                "PP Exfil",
+                "PP Exfil", // Vehicle 
                 "Saferoom Exfil",
                 "Hole Exfill",
                 "Interchange Cooperation"
@@ -706,7 +726,7 @@ export class GetData{
                 "Exit1",
                 "Exit2",
                 "Exit3",
-                "Exit4"
+                "Exit4" // Cp Fence
             ]
         }
         
@@ -741,12 +761,12 @@ export class GetData{
             mapName: ["tarkovstreets"],
         
             pmc: [
-                "E1",
-                "E2",
-                "E3",
-                "E4",
-                "E5",
-                "E6",
+                "E1", // Underpass
+                "E2", // Sewer River
+                "E3", // Streets Ruined House
+                "E4", // Evacuation Zone
+                "E5", // ?
+                "E6", // ?
                 "E7",
                 "E7_car",
                 "E8_yard",

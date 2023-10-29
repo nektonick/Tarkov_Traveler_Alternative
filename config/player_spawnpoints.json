@@ -8,7 +8,7 @@
       "Position": [58.67002, 0.233123064, 57.4049568],
       "Rotation": 129.412323
     },
-    "Med tent gates": {
+    "Gate m": {
       "Position": [-18.9917545, 0.229607314, -46.5803642],
       "Rotation": 19.03057
     },
@@ -30,7 +30,7 @@
       "Position": [58.67002, 0.233123064, 57.4049568],
       "Rotation": 129.412323
     },
-    "Med tent gates": {
+    "Gate m": {
       "Position": [-18.9917545, 0.229607314, -46.5803642],
       "Rotation": 19.03057
     },
@@ -47,6 +47,15 @@
     "Military Base CP": {
       "Position": [674.5625, 5.60742664, 123.641823],
       "Rotation": 238.056732
+    },
+    "Railroad To Military Base": {
+      "Position": [489.120117, 1.40883172, 207.272552],
+      "Rotation": 228.254486
+    },
+    "Beyond Fuel Tank": {
+      "TODO": "change",
+      "Position": [489.120117, 1.40883172, 207.272552],
+      "Rotation": 228.254486
     },
     "ZB-1011": {
       "Position": [629.4296, -2.77441788, -127.8221],
@@ -80,7 +89,7 @@
       "Position": [647.2151, 1.12474906, -150.711029],
       "Rotation": 331.2538
     },
-    "Old Gas Scav": {
+    "Old Azs Gate": {
       "Position": [302.545, 2.91025, -185.017761],
       "Rotation": 202.349335
     },
@@ -88,11 +97,11 @@
       "Position": [458.392639, 4.95283127, 181.01564],
       "Rotation": 256.057983
     },
-    "RR To Port": {
+    "Railroad To Port": {
       "Position": [-145.3853, 2.62803984, -23.7549515],
       "Rotation": 1.93337643
     },
-    "RR To Tarkov": {
+    "Railroad To Tarkov": {
       "Position": [-149.420151, 3.40357137, -178.949509],
       "Rotation": 6.05172825
     },
@@ -100,17 +109,31 @@
       "Position": [48.11184, 1.10045552, -84.83577],
       "Rotation": 155.8685
     },
-    "Dorms Car": {
+    "Dorms V-Ex": {
       "Position": [191.627884, -2.16589069, 208.912079],
       "Rotation": 278.0221
     },
-    "Scav CP": {
+    "Military Checkpoint": {
       "Position": [647.141, -0.3182248, -25.9616776],
       "Rotation": 307.1494
+    },
+    "Administration Gate": {
+      "Position": [666.540161, 1.06852221, -49.012455],
+      "Rotation": 265.986572
+    },
+    "Warehouse 4": {
+      "TODO": "Change",
+      "Position": [199.2377, -2.81965065, -145.043625],
+      "Rotation": 341.8522
+    },
+    "Factory Shacks": {
+      "TODO": "Change",
+      "Position": [199.2377, -2.81965065, -145.043625],
+      "Rotation": 341.8522
     }
   },
   "woods": {
-    "Northern UN Roadblock": {
+    "un-sec": {
       "Position": [-555.2336, 9.391193, -76.86284],
       "Rotation": 138.160156
     },
@@ -129,6 +152,10 @@
     "The Boat": {
       "Position": [190.682846, -14.9319124, 219.147934],
       "Rotation": 227.765961
+    },
+    "South V-Ex": {
+      "Position": [-487.348541, 15.0604687, -497.965179],
+      "Rotation": 24.781599
     },
     "Mountain Stash": {
       "Position": [-215.205872, 31.7007847, -209.631348],
@@ -157,10 +184,15 @@
     "Scav Bunker": {
       "Position": [224.07019, 20.14909, -708.5178],
       "Rotation": 104.772415
+    },
+    "RUAF Gate": {
+      "TODO": "change",
+      "Position": [-346.51947, -2.32620764, 353.3336],
+      "Rotation": 174.779083
     }
   },
   "rezervbase": {
-    "Scav lands": {
+    "EXFIL_ScavCooperation": {
       "Position": [-120.954071, -6.94097, -129.4829],
       "Rotation": 260.069275
     },
@@ -168,7 +200,7 @@
       "Position": [-196.7502, -5.37225676, -114.267555],
       "Rotation": 93.10983
     },
-    "Cliff": {
+    "Alpinist": {
       "Position": [-15.9683733, 18.4609661, 195.898743],
       "Rotation": 190.4635
     },
@@ -185,7 +217,7 @@
       "Position": [118.866768, -12.2845945, -119.324211],
       "Rotation": 299.889923
     },
-    "Hole In Wall": {
+    "Exit1": {
       "Position": [-262.3644, -6.20308161, 47.7328873],
       "Rotation": 89.65134
     },
@@ -193,39 +225,43 @@
       "Position": [50.6118279, -6.97395849, 73.78378],
       "Rotation": 213.616745
     },
-    "Train Station": {
+    "EXFIL_Train": {
       "Position": [166.653687, -5.19410563, -144.143341],
       "Rotation": 191.8541
     },
-    "D-2": {
+    "EXFIL_Bunker_D2": {
       "Position": [-116.999077, -18.3659115, 169.5836],
       "Rotation": 128.773651
     }
   },
   "interchange": {
-    "Interchange Vehicle Extract": {
+    "PP Exfil": {
       "Position": [-242.849625, 21.32544, -372.680878],
       "Rotation": 52.06011
     },
-    "Railway": {
+    "Car at Power Station": {
+      "Position": [-242.849625, 21.32544, -372.680878],
+      "Rotation": 52.06011
+    },
+    "NW Exfil": {
       "Position": [473.177979, 18.4533634, -390.7554],
       "Rotation": 281.3094
     },
-    "Emercom": {
+    "SE Exfil": {
       "Position": [-328.429871, 21.3254356, 260.571655],
       "Rotation": 73.0782242
     },
-    "Scav Camp": {
+    "Interchange Cooperation": {
       "Position": [283.740051, 21.3254337, -34.4532776],
       "Rotation": 194.086945
     },
-    "Safe Room": {
+    "Saferoom Exfil": {
       "Position": [-49.4776039, 21.3254585, 47.4479179],
       "Rotation": 344.7888
     }
   },
   "shoreline": {
-    "North Fence Passage": {
+    "South Fence Passage": {
       "Position": [-510.430939, -11.9056053, -373.174316],
       "Rotation": 41.4962769
     },
@@ -237,11 +273,11 @@
       "Position": [-311.829468, -64.56999, 559.7176],
       "Rotation": 210.594009
     },
-    "Shoreline Tunnel": {
+    "Tunnel": {
       "Position": [356.304871, -59.9092941, 313.181915],
       "Rotation": 274.0321
     },
-    "Admin Basement": {
+    "Adm Basement": {
       "Position": [-252.256073, -7.096292, -145.4518],
       "Rotation": 359.0387
     },
@@ -249,37 +285,41 @@
       "Position": [-967.462463, -59.678566, 375.060669],
       "Rotation": 166.59436
     },
-    "Shoreline Northern Cliffs": {
+    "Rock Passage": {
       "Position": [-174.818451, -11.1724739, -364.436646],
       "Rotation": 330.086456
     },
-    "Railway Bridge": {
+    "Road_at_railbridge": {
       "Position": [-1023.37292, -60.67251, 314.364075],
       "Rotation": 24.1157665
     },
-    "Path to Lighthouse": {
+    "Lighthouse_pass": {
       "Position": [362.138428, -54.85863, -181.549271],
       "Rotation": 335.1047
+    },
+    "Lighthouse": {
+      "Position": [-311.829468, -64.56999, 559.7176],
+      "Rotation": 210.594009
     }
   },
   "lighthouse": {
-    "Path to Shoreline": {
+    "Shorl_free": {
       "Position": [-284.0998, 14.4007835, -161.669266],
       "Rotation": 126.306564
     },
-    "Lighthouse Vehicle Extract": {
+    " V-Ex_light": {
       "Position": [-316.70462, 15.1516333, -784.0004],
       "Rotation": 37.57063
     },
-    "Lighthouse Tunnel": {
+    "tunnel_shared": {
       "Position": [-54.28882, 5.95763159, 327.053345],
       "Rotation": 106.236305
     },
-    "Grotto": {
+    "Scav_Hideout_at_the_grotto": {
       "Position": [194.516525, -0.48209092, -491.773224],
       "Rotation": 182.743759
     },
-    "Northern CP": {
+    "Nothern_Checkpoint": {
       "Position": [115.480957, 4.61967325, -980.5756],
       "Rotation": 347.679443
     },
@@ -294,18 +334,23 @@
     "Southern Road": {
       "Position": [-215.268738, 5.94645643, 419.227417],
       "Rotation": 77.76075
+    },
+    "SCAV_Underboat_Hideout": {
+      "TODO": "Change",
+      "Position": [-54.28882, 5.95763159, 327.053345],
+      "Rotation": 106.236305
     }
   },
   "tarkovstreets": {
-    "Streets Vehicle Extract": {
+    "E7_car": {
       "Position": [-8.757395, 2.31632733, 458.126923],
       "Rotation": 177.1993
     },
-    "Basement Descent": {
+    "scav_e1": {
       "Position": [73.63199, -2.13371778, 56.0767555],
       "Rotation": 326.0107
     },
-    "Catacombs": {
+    "scav_e2": {
       "Position": [-243.837051, 0.6605578, 243.027969],
       "Rotation": 124.062996
     },
@@ -317,7 +362,7 @@
       "Position": [-152.4702, 0.8981548, 76.18395],
       "Rotation": 10.636034
     },
-    "Sewer River": {
+    "E2": {
       "Position": [-263.4596, -2.58167219, 216.658859],
       "Rotation": 151.635468
     },
@@ -329,7 +374,7 @@
       "Position": [-244.822723, 6.355562, 344.1349],
       "Rotation": 87.62667
     },
-    "Streets Vents": {
+    "scav_e3": {
       "Position": [-123.828979, 2.30664325, 432.900574],
       "Rotation": 244.029388
     },
@@ -353,41 +398,52 @@
       "Position": [82.8, 3.97, -175.4],
       "Rotation": 304.3322
     },
-    "Crash Site": {
+    "E4": {
       "Position": [269.3, 3.4, 427.25],
       "Rotation": 87.62667
     },
-    "Kamchatskya Arch": {
+    "scav_e5": {
+      "TODO": "check",
       "Position": [254.4, -5.9, 50.5],
+      "Rotation": 304.3322
+    },
+    "Exit_E10_coop": {
+      "TODO": "change",
+      "Position": [-152.4702, 0.8981548, 76.18395],
+      "Rotation": 10.636034
+    },
+    "scav_e7": {
+      "TODO": "check",
+      "Position": [103.6, -1.9, -155.3],
       "Rotation": 304.3322
     }
   },
   "laboratory": {
-    "Cargo Elevator": {
+    "lab_Elevator_Cargo": {
       "Position": [-114.2475, 4.101831, -408.6356],
       "Rotation": 270.727661
     },
-    "Hangar Gate": {
+    "lab_Hangar_Gate": {
       "Position": [-170.346313, 0.07315855, -249.111542],
       "Rotation": 208.741516
     },
-    "Lab Sewage Conduit": {
+    "lab_Under_Storage_Collector": {
       "Position": [-123.794968, -4.985455, -260.754242],
       "Rotation": 185.730515
     },
-    "Lab Vents": {
+    "lab_Vent": {
       "Position": [-142.8083, -4.053963, -400.147034],
       "Rotation": 38.8127365
     },
-    "Main Elevator": {
+    "lab_Elevator_Main": {
       "Position": [-279.4339, -4.050967, -334.7585],
       "Rotation": 73.58874
     },
-    "Med Block Elevator": {
+    "lab_Elevator_Med": {
       "Position": [-114.566971, -4.05397, -343.565735],
       "Rotation": 275.983582
     },
-    "Parking Gate": {
+    "lab_Parking_Gate": {
       "Position": [-231.813736, 0.0220247321, -426.099579],
       "Rotation": 14.0038671
     }
