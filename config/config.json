@@ -84,14 +84,25 @@
                 "BunkersSystem",
                 "CustomsStash1",
                 "CustomsStash2",
+                "PraporZone1",
+                "PraporZone2",
                 "JaegerZone1",
                 "JaegerZone2",
                 "JaegerZone3",
+                "PKeeperZone1",
+                "PKeeperZone2",
+                "PKeeperZone3",
                 "SkierZone1",
                 "SkierZone2",
                 "SkierZone3",
                 "SkierZone4",
-                "SkierZone5"
+                "SkierZone5",
+                "RagmanZone1",
+                "RagmanZone2",
+                "RagmanZone3",
+                "FactoryGate0",
+                "FactoryGate3",
+                "FactoryGateM"
             ]
         },
 
@@ -526,7 +537,7 @@
         "JaegerZone1":{
             "access_via":{
                 "woods": ["Outskirts", "Scav House", "The Boat", "Dead Man's Place"],
-                "lighthouse": ["Nothern_Checkpoint"],
+                "lighthouse": ["Nothern_Checkpoint", "EXFIL_Train"],
                 "bigmap": ["Military Checkpoint"]
             },
 
@@ -603,7 +614,7 @@
             "access_via":{
                 "bigmap": ["Sniper Roadblock"],
                 "shoreline": ["Road to Customs"],
-                "interchange": ["SE Exfil"]
+                "interchange": ["SE Exfil", "Hole Exfill"]
             },
 
             "can_infil_to":{
@@ -616,12 +627,14 @@
         "SkierZone2":{
             "access_via":{
                 "bigmap": ["Dorms V-Ex", "Old Road Gate"],
-                "shoreline": ["South Fence Passage"]
+                "shoreline": ["South Fence Passage"],
+                "rezervbase": ["Exit1"]
             },
 
             "can_infil_to":{
                 "bigmap": "Dorms V-Ex",
-                "shoreline": "South Fence Passage"
+                "shoreline": "South Fence Passage",
+                "rezervbase": "Exit1"
             }
         },
 
