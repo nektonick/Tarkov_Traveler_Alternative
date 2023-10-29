@@ -45,8 +45,12 @@
     },
     "checkpoints":[
         "BunkersSystem",
-        "CustomsStash1",
-        "CustomsStash2",
+        "Stash1",
+        "Stash2",
+        "Stash3",
+        "Stash4",
+        "Stash5",
+        "Stash6",
         "PraporZone1",
         "PraporZone2",
         "JaegerZone1",
@@ -86,8 +90,12 @@
             "right_leg_rate": 1.1375,
             "access_via": [
                 "BunkersSystem",
-                "CustomsStash1",
-                "CustomsStash2",
+                "Stash1",
+                "Stash2",
+                "Stash3",
+                "Stash4",
+                "Stash5",
+                "Stash6",
                 "PraporZone1",
                 "PraporZone2",
                 "JaegerZone1",
@@ -120,8 +128,12 @@
             "rate": 1,
             "access_via": [
                 "BunkersSystem",
-                "CustomsStash1",
-                "CustomsStash2",
+                "Stash1",
+                "Stash2",
+                "Stash3",
+                "Stash4",
+                "Stash5",
+                "Stash6",
                 "PraporZone1",
                 "PraporZone2",
                 "JaegerZone1",
@@ -154,8 +166,12 @@
             "rate": 1,
             "access_via": [
                 "BunkersSystem",
-                "CustomsStash1",
-                "CustomsStash2",
+                "Stash1",
+                "Stash2",
+                "Stash3",
+                "Stash4",
+                "Stash5",
+                "Stash6",
                 "PraporZone1",
                 "PraporZone2",
                 "JaegerZone1",
@@ -282,8 +298,12 @@
             "unlock_level": 10,
             "access_via": [
                 "BunkersSystem",
-                "CustomsStash1",
-                "CustomsStash2",
+                "Stash1",
+                "Stash2",
+                "Stash3",
+                "Stash4",
+                "Stash5",
+                "Stash6",
                 "PraporZone1",
                 "PraporZone2",
                 "JaegerZone1",
@@ -322,20 +342,52 @@
                 "BunkersSystem"
             ]
         },
-        "CustomsStash1":{
+        "Stash1":{
             "upgradable": false,
             "size_h": 10,
             "size_v": 28,
             "access_via": [
-                "CustomsStash1"
+                "Stash1"
             ]
         },
-        "CustomsStash2":{
+        "Stash2":{
             "upgradable": false,
             "size_h": 10,
             "size_v": 28,
             "access_via": [
-                "CustomsStash2"
+                "Stash2"
+            ]
+        },
+        "Stash3":{
+            "upgradable": false,
+            "size_h": 10,
+            "size_v": 28,
+            "access_via": [
+                "Stash3"
+            ]
+        },
+        "Stash4":{
+            "upgradable": false,
+            "size_h": 10,
+            "size_v": 28,
+            "access_via": [
+                "Stash4"
+            ]
+        },
+        "Stash5":{
+            "upgradable": false,
+            "size_h": 10,
+            "size_v": 28,
+            "access_via": [
+                "Stash5"
+            ]
+        },
+        "Stash6":{
+            "upgradable": false,
+            "size_h": 10,
+            "size_v": 28,
+            "access_via": [
+                "Stash6"
             ]
         },
         "Prapor_Stash":{
@@ -568,7 +620,7 @@
             }
         },
 
-        "CustomsStash1": {
+        "Stash1": {
             "access_via":{
                 "bigmap": ["Warehouse 4"]
             },
@@ -578,13 +630,53 @@
             }
         },
 
-        "CustomsStash2": {
+        "Stash2": {
             "access_via":{
                 "bigmap": ["Factory Shacks"]
             },
 
             "can_infil_to":{
                 "bigmap": "Factory Shacks"
+            }
+        },
+
+        "Stash3": {
+            "access_via":{
+                "lighthouse": ["SCAV_Underboat_Hideout"]
+            },
+
+            "can_infil_to":{
+                "lighthouse": "SCAV_Underboat_Hideout"
+            }
+        },
+
+        "Stash4": {
+            "access_via":{
+                "shoreline": ["Adm Basement"]
+            },
+
+            "can_infil_to":{
+                "shoreline": "Adm Basement"
+            }
+        },
+
+        "Stash5": {
+            "access_via":{
+                "shoreline": ["Lighthouse"]
+            },
+
+            "can_infil_to":{
+                "shoreline": "Lighthouse"
+            }
+        },
+
+        "Stash6": {
+            "access_via":{
+                "interchange": ["Saferoom Exfil"]
+            },
+
+            "can_infil_to":{
+                "interchange": "Saferoom Exfil"
             }
         },
 

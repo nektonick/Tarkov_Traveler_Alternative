@@ -255,7 +255,7 @@
       "Position": [283.740051, 21.3254337, -34.4532776],
       "Rotation": 194.086945
     },
-    "Safe Room": {
+    "Saferoom Exfil": {
       "Position": [-49.4776039, 21.3254585, 47.4479179],
       "Rotation": 344.7888
     }
@@ -277,7 +277,7 @@
       "Position": [356.304871, -59.9092941, 313.181915],
       "Rotation": 274.0321
     },
-    "Admin Basement": {
+    "Adm Basement": {
       "Position": [-252.256073, -7.096292, -145.4518],
       "Rotation": 359.0387
     },
@@ -296,6 +296,10 @@
     "Lighthouse_pass": {
       "Position": [362.138428, -54.85863, -181.549271],
       "Rotation": 335.1047
+    },
+    "Lighthouse": {
+      "Position": [-311.829468, -64.56999, 559.7176],
+      "Rotation": 210.594009
     }
   },
   "lighthouse": {
@@ -330,6 +334,11 @@
     "Southern Road": {
       "Position": [-215.268738, 5.94645643, 419.227417],
       "Rotation": 77.76075
+    },
+    "SCAV_Underboat_Hideout": {
+      "TODO": "Change",
+      "Position": [-54.28882, 5.95763159, 327.053345],
+      "Rotation": 106.236305
     }
   },
   "tarkovstreets": {
