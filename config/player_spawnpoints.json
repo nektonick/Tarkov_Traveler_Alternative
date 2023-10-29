@@ -128,7 +128,7 @@
     }
   },
   "woods": {
-    "Northern UN Roadblock": {
+    "un-sec": {
       "Position": [-555.2336, 9.391193, -76.86284],
       "Rotation": 138.160156
     },
@@ -268,7 +268,7 @@
       "Position": [-311.829468, -64.56999, 559.7176],
       "Rotation": 210.594009
     },
-    "Shoreline Tunnel": {
+    "Tunnel": {
       "Position": [356.304871, -59.9092941, 313.181915],
       "Rotation": 274.0321
     },
@@ -288,13 +288,13 @@
       "Position": [-1023.37292, -60.67251, 314.364075],
       "Rotation": 24.1157665
     },
-    "Path to Lighthouse": {
+    "Lighthouse_pass": {
       "Position": [362.138428, -54.85863, -181.549271],
       "Rotation": 335.1047
     }
   },
   "lighthouse": {
-    "Path to Shoreline": {
+    "Shorl_free": {
       "Position": [-284.0998, 14.4007835, -161.669266],
       "Rotation": 126.306564
     },
@@ -302,7 +302,7 @@
       "Position": [-316.70462, 15.1516333, -784.0004],
       "Rotation": 37.57063
     },
-    "Lighthouse Tunnel": {
+    "tunnel_shared": {
       "Position": [-54.28882, 5.95763159, 327.053345],
       "Rotation": 106.236305
     },
@@ -384,7 +384,7 @@
       "Position": [82.8, 3.97, -175.4],
       "Rotation": 304.3322
     },
-    "Crash Site": {
+    "E4": {
       "Position": [269.3, 3.4, 427.25],
       "Rotation": 87.62667
     },

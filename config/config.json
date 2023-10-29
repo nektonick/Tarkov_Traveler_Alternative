@@ -52,7 +52,9 @@
         "JaegerZone1",
         "JaegerZone2",
         "JaegerZone3",
-        "PKeeperZone",
+        "PKeeperZone1",
+        "PKeeperZone2",
+        "PKeeperZone3",
         "SkierZone1",
         "SkierZone2",
         "SkierZone3",
@@ -106,7 +108,9 @@
                 "JaegerZone1",
                 "JaegerZone2",
                 "JaegerZone3",
-                "PKeeperZone",
+                "PKeeperZone1",
+                "PKeeperZone2",
+                "PKeeperZone3",
                 "SkierZone1",
                 "SkierZone2",
                 "SkierZone3",
@@ -134,7 +138,9 @@
                 "JaegerZone1",
                 "JaegerZone2",
                 "JaegerZone3",
-                "PKeeperZone",
+                "PKeeperZone1",
+                "PKeeperZone2",
+                "PKeeperZone3",
                 "SkierZone1",
                 "SkierZone2",
                 "SkierZone3",
@@ -219,7 +225,11 @@
             "trader_location_text": "Holed up in an old supply bunker in the military base.",
             "accessible_everywhere": false,
             "is_medic": true,
-            "access_via": ["PKeeperZone"]
+            "access_via": [
+                "PKeeperZone1",
+                "PKeeperZone2",
+                "PKeeperZone3"
+            ]
         },
         "Fence": {
             "trader_id": "579dc571d53a0658a154fbec",
@@ -243,7 +253,9 @@
                 "JaegerZone1",
                 "JaegerZone2",
                 "JaegerZone3",
-                "PKeeperZone",
+                "PKeeperZone1",
+                "PKeeperZone2",
+                "PKeeperZone3",
                 "SkierZone1",
                 "SkierZone2",
                 "SkierZone3",
@@ -306,7 +318,11 @@
             "upgradable": true,
             "size_h": 0,
             "size_v": 0,
-            "access_via": ["PKeeperZone"]
+            "access_via": [
+                "PKeeperZone1",
+                "PKeeperZone2",
+                "PKeeperZone3"
+            ]
         },
         "Ragman_Stash":{
             "upgradable": true,
@@ -430,7 +446,11 @@
 
         "Peacekeeper_Hideout":{
 
-            "access_via":["PKeeperZone"],
+            "access_via":[
+                "PKeeperZone1",
+                "PKeeperZone2",
+                "PKeeperZone3"
+            ],
             
             "stations": {
                 "all_stations": true
@@ -541,17 +561,41 @@
             }
         },
 
-        "PKeeperZone":{
+        "PKeeperZone1":{
             "access_via":{
-                "woods": ["UN Roadblock", "un-sec", "Old Station"],
                 "bigmap": ["RUAF Roadblock"],
-                "tarkovstreets": ["E4"]
+                "woods": [ "un-sec", "West Border", "Old Station", "UN Roadblock"],
+                "tarkovstreets": ["E4", "scav_e4"]
             },
 
             "can_infil_to":{
-                "woods": "Northern UN Roadblock",
                 "bigmap": "RUAF Roadblock",
-                "tarkovstreets": "Crash Site"
+                "woods": "un-sec",
+                "tarkovstreets": "E4"
+            }
+        },
+
+        "PKeeperZone2":{
+            "access_via":{
+                "shoreline": ["Lighthouse_pass", "Ruined House Fence"],
+                "lighthouse": ["Shorl_free", "Alpinist_light"]
+            },
+
+            "can_infil_to":{
+                "shoreline": "Lighthouse_pass",
+                "lighthouse": "Shorl_free"
+            }
+        },
+
+        "PKeeperZone3":{
+            "access_via":{
+                "shoreline": ["Tunnel", "Wrecked Road", "Svetliy Dead End "],
+                "lighthouse": ["tunnel_shared", "Coastal_South_Road", "Scav_Coastal_South"]
+            },
+
+            "can_infil_to":{
+                "shoreline": "Tunnel",
+                "lighthouse": "tunnel_shared"
             }
         },
 
@@ -692,32 +736,6 @@
                 "factory4_day": "Med tent gates",
                 "factory4_night": "Med tent gates",
                 "bigmap": "Old Gas Scav"
-            }
-        },
-
-        "Shoreline.Tunnel--Lighthouse.SouthernRoad":{
-
-            "access_via":{
-                "lighthouse": ["tunnel_shared"],
-                "shoreline": ["Tunnel"]
-            },
-
-            "can_infil_to":{
-                "lighthouse": "Lighthouse Tunnel",
-                "shoreline": "Shoreline Tunnel"
-            }
-        },
-
-        "Shoreline.PathToLighthouse--Lighthouse.PathToShoreline":{
-
-            "access_via":{
-                "lighthouse": ["Shorl_free"],
-                "shoreline": ["Lighthouse_pass"]
-            },
-
-            "can_infil_to":{
-                "lighthouse": "Path to Shoreline",
-                "shoreline": "Path to Lighthouse"
             }
         },
 
