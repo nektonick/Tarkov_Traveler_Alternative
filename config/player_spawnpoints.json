@@ -186,9 +186,12 @@
       "Rotation": 104.772415
     },
     "RUAF Gate": {
-      "TODO": "change",
-      "Position": [-346.51947, -2.32620764, 353.3336],
-      "Rotation": 174.779083
+      "Position": [
+        -145.318634,
+        -1.30317593,
+        415.3658
+      ],
+      "Rotation": 211.2405
     }
   },
   "rezervbase": {
