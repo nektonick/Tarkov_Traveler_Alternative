@@ -127,9 +127,12 @@
       "Rotation": 341.8522
     },
     "Factory Shacks": {
-      "TODO": "Change",
-      "Position": [199.2377, -2.81965065, -145.043625],
-      "Rotation": 341.8522
+      "Position": [
+        202.3256,
+        3.87121868,
+        11.1301517
+      ],
+      "Rotation": 183.5378
     }
   },
   "woods": {
