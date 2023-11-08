@@ -122,9 +122,12 @@
       "Rotation": 265.986572
     },
     "Warehouse 4": {
-      "TODO": "Change",
-      "Position": [199.2377, -2.81965065, -145.043625],
-      "Rotation": 341.8522
+      "Position": [
+        354.331177,
+        1.06276667,
+        -31.31885
+      ],
+      "Rotation": 101.630951
     },
     "Factory Shacks": {
       "Position": [
