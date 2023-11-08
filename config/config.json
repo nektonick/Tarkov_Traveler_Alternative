@@ -10,10 +10,10 @@
     "multi_stash": true,
     "multi_hideout": true,
     "locale_language": "en",
-    "trader_access_restriction": true,
+    "trader_access_restriction": false,
     "world_event_exfil_requirements": true,
     "post_raid_healing_enabled":true,
-    "disable_out_of_raid_quest_stash": true,
+    "disable_out_of_raid_quest_stash": false,
     "car_exfils":{
         "all_cars_free": true,
         "car_currency": "roubles",
@@ -39,7 +39,7 @@
         "trader": "therapist",
         "loyalty_level": 1,
         "currency": "roubles",
-        "price": 69420,
+        "price": 25000,
         "stock_amount": 999,
         "unlimited_stock": true
     },
@@ -295,7 +295,7 @@
             "trader_id": "ragfair",
             "unlock_via_offraid_pos": true,
             "//Note": "unlock_level only applies if unlock_via_offraid_pos = true",
-            "unlock_level": 10,
+            "unlock_level": 1,
             "access_via": [
                 "BunkersSystem",
                 "Stash1",
@@ -335,9 +335,9 @@
    
     "stashes": {
         "Home_Stash":{
-            "upgradable": true,
-            "size_h": 0,
-            "size_v": 0,
+            "upgradable": false,
+            "size_h": 10,
+            "size_v": 136,
             "access_via": [
                 "BunkersSystem"
             ]
@@ -496,32 +496,7 @@
             ],
             
             "stations": {
-                "generator": true,
-                "water collector": true,
-                "air filter": true,
-                "gym": true,
-
-                "vents": true,
-                "security": true,
-                "lavatory": true,
-                "stash": true,
-                "heating": true,
-                "med station": true,
-                "nutrition": true,
-                "rest space": true,
-                "workbench": true,
-                "intel center": true,
-                "shooting range": true,
-                "library": true,
-                "scav case": true,
-                "lights": true,
-                "solar": true,
-                "booze": true,
-                "bitcoin farm": true,
-                "christmas tree": true,
-                "defective wall": true,
-                "gunstand primary": true,
-                "gunstand secondary": true
+                "all_stations": true
             }
         },
 
