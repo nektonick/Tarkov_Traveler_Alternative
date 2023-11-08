@@ -608,12 +608,16 @@
 
         "BunkersSystem":{
             "access_via":{
+                "factory4_day": ["Camera Bunker Door"],
+                "factory4_night": ["Camera Bunker Door"],
                 "bigmap": ["ZB-1011", "ZB-1012", "Old Gas Station", "EXFIL_ZB013", "Warehouse 17"],
                 "woods": ["Mountain Stash", "ZB-014", "ZB-016", "East Gate"],
                 "rezervbase": ["EXFIL_Bunker_D2", "EXFIL_Bunker", "Exit3", "Sewer Manhole"]
             },
 
             "can_infil_to":{
+                "factory4_day": "Camera Bunker Door",
+                "factory4_night": "Camera Bunker Door",
                 "bigmap": "ZB-1011",
                 "woods": "Mountain Stash",
                 "rezervbase": "EXFIL_Bunker_D2"
@@ -883,8 +887,8 @@
 
         "MechanicZone1":{
             "access_via":{
-                "factory4_day": ["Gate 0", "Camera Bunker Door"],
-                "factory4_night": ["Gate 0", "Camera Bunker Door"],
+                "factory4_day": ["Gate 0", "Office Window"],
+                "factory4_night": ["Gate 0", "Office Window"],
                 "bigmap": ["Factory Far Corner"]
             },
 
@@ -897,8 +901,8 @@
 
         "MechanicZone2":{
             "access_via":{
-                "factory4_day": ["Gate 3", "Office Window"],
-                "factory4_night": ["Gate 3", "Office Window"],
+                "factory4_day": ["Gate 3"],
+                "factory4_night": ["Gate 3"],
                 "woods": ["Factory Gate"]
             },
 
